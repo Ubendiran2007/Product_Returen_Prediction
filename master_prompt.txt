@@ -1,0 +1,669 @@
+<USER_REQUEST>
+# MASTER PROMPT: ReturnWise — E-Commerce Return Intelligence Platform
+
+## 1. Role and Objective
+
+Act as a senior full-stack engineer, data scientist, machine learning engineer, database architect, and professional UI/UX designer.
+
+Build a complete, functional, production-quality web application named **ReturnWise — E-Commerce Return Intelligence Platform**.
+
+The application must analyze e-commerce returns, identify products and categories with high return rates, examine the relationship between discounts and returns, investigate delivery delays, compare seller performance, understand customer return behaviour, and generate evidence-based business recommendations.
+
+This project is based on the E-Commerce Return Insight use case. It must support data preprocessing, exploratory data analysis (EDA), feature engineering, Excel analytics, business insights, and optional machine learning.
+
+**Critical instruction:** Inspect the real extracted dataset before implementing analytics. Never invent columns, statistics, findings, or model performance. Adapt the application to the files and fields that actually exist.
+
+## 2. Technology Stack
+
+### Frontend
+- React.js with Vite
+- Tailwind CSS
+- React Router
+- Recharts
+- Lucide React
+- Framer Motion
+- Axios
+
+### Backend
+- Python
+- FastAPI
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- PyMongo
+- OpenPyXL for Excel exports
+- ReportLab for PDF reports
+
+### Database
+- MongoDB Community Server
+- MongoDB Compass for database inspection
+- Database name: `returnwise_db`
+
+MongoDB Compass is the database management interface. The backend must connect to the MongoDB server using PyMongo.
+
+Use environment variables for database configuration and never hardcode credentials.
+
+## 3. Professional UI/UX Design System
+
+The interface must look like a premium business intelligence product, not a generic admin template.
+
+### Required color distribution
+
+- **60% White:** main workspace, cards, tables, content backgrounds.
+- **20% Dark Green:** sidebar, navigation, primary actions, important headings.
+- **10% Light Green:** selected navigation, secondary cards, highlights.
+- **10% Multicolor:** charts, categorical distinctions, risk levels, status indicators.
+
+### Color palette
+
+- Dark green: `#123C2F`
+- Deep green: `#0B2B22`
+- Light green: `#DDEFE2`
+- Pale green: `#F0F7F2`
+- White: `#FFFFFF`
+- Primary text: `#17251F`
+- Secondary text: `#6B7C73`
+- Border: `#E4EBE6`
+- Blue accent: `#4F7DF3`
+- Orange accent: `#F4A340`
+- Purple accent: `#8B6CE8`
+- Red accent: `#E45D5D`
+- Teal accent: `#2CA6A4`
+
+Use the green palette for the application's identity. Use multicolor accents mainly for meaningful data visualization.
+
+### Design requirements
+
+- Collapsible dark-green sidebar.
+- Clean top navigation with page title, breadcrumbs, dataset status, and profile/settings menu.
+- Consistent spacing and typography.
+- Professional KPI cards with clear labels and comparison indicators.
+- Subtle shadows and consistent corner radii.
+- Interactive charts with tooltips and legends.
+- Searchable and sortable tables.
+- Responsive layouts from mobile screens to large desktop displays.
+- Loading skeletons, error messages, empty states, and success notifications.
+- Accessible contrast and keyboard-friendly controls.
+- Smooth, restrained animations.
+- No excessive gradients, oversized headings, random colours, or unnecessary decorative elements.
+
+Create a consistent design system with reusable buttons, cards, badges, tables, filters, modals, charts, and form components.
+
+## 4. Phase One: Inspect the Actual Dataset
+
+Before building the application, inspect every extracted file inside `data/raw/`.
+
+The dataset may contain separate files for orders, products, customers, deliveries, and returns, or it may be a single combined CSV. Do not assume a particular structure.
+
+Generate a dataset inventory report that identifies:
+
+- File names and formats.
+- Number of rows and columns.
+- Actual column names.
+- Data types.
+- Missing values and percentages.
+- Duplicate records.
+- Unique categorical values.
+- Potential primary keys and join keys.
+- Date columns and invalid date values.
+- Numeric outliers.
+- Suspicious prices, quantities, and discount values.
+- Potential relationships between files.
+- Unmatched records after joining.
+
+Map the actual dataset fields to the application's analytical requirements.
+
+If a field is missing, explain which features depend on it and disable or adapt those features gracefully. Never create synthetic records to hide missing information.
+
+If multiple files exist, validate join cardinality before merging them to prevent duplicated rows and incorrect return-rate calculations.
+
+Preserve the raw dataset and store cleaned data separately in `data/processed/`.
+
+## 5. Data Cleaning and Preprocessing
+
+Implement a reusable data-cleaning pipeline.
+
+It must handle:
+
+- Missing values.
+- Exact duplicate records.
+- Duplicate order identifiers where they genuinely indicate data problems.
+- Inconsistent category, brand, size, and seller labels.
+- Invalid date formats.
+- Impossible delivery timelines.
+- Negative or invalid prices and quantities.
+- Discounts outside the documented valid range.
+- Numeric outliers.
+- Invalid return indicators.
+- Unmatched records across related datasets.
+
+Do not automatically delete every outlier. Some extreme values may be legitimate.
+
+For each cleaning operation, record:
+- Number of affected records.
+- Original value or issue category where practical.
+- Action taken.
+- Reason for the action.
+- Remaining unresolved issues.
+
+Provide a data-quality summary before and after cleaning. Allow users to inspect quality issues and download the cleaned data.
+
+## 6. Application Pages
+
+Create the following fully functional pages:
+
+1. Overview Dashboard
+2. Returns Analytics
+3. Product Intelligence
+4. Delivery Insights
+5. Customer Segments
+6. Seller Performance
+7. Data Explorer
+8. Data Quality Center
+9. Feature Engineering
+10. Return Risk Lab
+11. Business Recommendations
+12. Reports & Exports
+13. Settings
+
+Every sidebar item must open a real page. Do not leave placeholder screens or decorative, nonfunctional buttons.
+
+## 7. Overview Dashboard
+
+Create an executive dashboard containing these KPIs when supported by the dataset:
+
+- Total eligible orders.
+- Total returned orders.
+- Overall return rate.
+- Total order value or revenue.
+- Average discount.
+- Late-delivery rate.
+- Number of products or sellers analyzed.
+
+Clearly define each KPI and its calculation.
+
+Use the appropriate analytical unit. If the dataset contains order lines, distinguish order-level statistics from order-line statistics.
+
+Add interactive charts for:
+
+- Return rate over time.
+- Return volume by category.
+- Returned versus non-returned orders.
+- Return reasons.
+- Discount ranges versus return rates.
+- Late versus on-time delivery return rates.
+- Seller and product comparisons.
+
+Add global filters for date, category, region, seller, and return status where the corresponding fields exist.
+
+All metrics and charts must respond to relevant filters.
+
+If no dataset is imported, show a professional empty state instead of fake KPIs.
+
+## 8. Returns Analytics
+
+Implement:
+
+- Overall return rate.
+- Category-wise return rate.
+- Return reasons distribution.
+- Returns over time.
+- Returned versus non-returned comparisons.
+- Discount distribution by return status.
+- Return rates by discount range.
+- Return volume and rate comparisons.
+- Interactive chart drill-down.
+- Filtered CSV export.
+
+Use the documented formula:
+
+Return rate = Returned eligible units or records ÷ Total eligible units or records × 100.
+
+Choose the correct denominator based on the dataset. Clearly display whether a calculation uses unique orders, order lines, or another unit.
+
+Avoid mixing units in the same comparison.
+
+## 9. Product Intelligence
+
+Build a product analytics workspace containing:
+
+- Category performance.
+- Brand comparisons.
+- Product-level return analysis.
+- Size-related returns, if size exists.
+- High-return product identification.
+- Product and category return reasons.
+- Return volume versus return rate.
+- Minimum-sample safeguards.
+- Search, sorting, filtering, and pagination.
+- Product detail views.
+
+Do not rank products as problematic solely because a small number of purchases resulted in returns.
+
+## 10. Delivery Insights
+
+When valid delivery dates exist, calculate:
+
+Delivery delay in days = Actual delivery date − Promised delivery date.
+
+Interpretation:
+- Positive: late delivery.
+- Zero: delivered on the promised date.
+- Negative: delivered early.
+
+Build:
+
+- On-time versus late delivery analysis.
+- Delivery delay distribution.
+- Return rate by delivery status.
+- Courier performance comparisons.
+- Invalid date warnings.
+- Delivery trends over time.
+
+If delivery information is unavailable, explain that delivery analysis requires additional data.
+
+Report associations between delivery and returns without claiming causation unless appropriate causal evidence exists.
+
+## 11. Customer Segmentation
+
+Implement customer analysis using the fields actually available:
+
+- Customer return rate.
+- Order frequency.
+- Repeat versus first-time customer behaviour.
+- Customer region.
+- Customer order value.
+- Customer return volume.
+- Customer segments based on transparent business rules.
+
+Calculate recency, frequency, and monetary value only if the dataset supports those metrics.
+
+Use anonymized identifiers and avoid unnecessarily exposing personal information.
+
+## 12. Seller Performance
+
+Build seller-level analytics showing:
+
+- Total orders.
+- Return volume.
+- Return rate.
+- Product category mix.
+- Return reasons where relationships can be validated.
+- Delivery performance where appropriate.
+- Repeated-return patterns.
+- Seller ranking with sample sizes.
+
+Support search, sorting, filters, and detailed seller comparisons.
+
+## 13. Data Explorer
+
+Build a professional table interface with:
+
+- Dataset selector.
+- Search.
+- Column selector.
+- Sorting.
+- Filtering.
+- Pagination.
+- Data-type information.
+- Missing-value indicators.
+- Raw and cleaned data comparison.
+- CSV export.
+
+For large datasets, use backend pagination and aggregation instead of loading every record into the browser.
+
+## 14. Data Quality Center
+
+Create a dedicated data-quality dashboard showing:
+
+- Overall data-quality score.
+- Missing-value percentage per column.
+- Duplicate-record counts.
+- Invalid dates.
+- Inconsistent category and size labels.
+- Numeric outliers.
+- Suspicious discounts.
+- Invalid prices and quantities.
+- Unmatched join keys.
+- Before-and-after cleaning statistics.
+
+Calculate the quality score using documented criteria. Do not assign an arbitrary score merely to make the dataset appear good.
+
+## 15. Feature Engineering
+
+Implement a feature-engineering module that supports relevant features such as:
+
+- Discount percentage.
+- Order value.
+- Delivery delay.
+- Late-delivery indicator.
+- Customer order frequency.
+- Historical customer return rate.
+- Historical product return rate.
+- Historical seller return rate.
+- Quantity-related indicators.
+- Time-based features.
+
+Only create features when the required fields exist.
+
+For every feature, display:
+- Feature name.
+- Business meaning.
+- Required source columns.
+- Transformation rule.
+- Missing-value handling.
+- Sample output.
+- Suitability for analysis or prediction.
+
+**Prevent data leakage.** A model predicting whether an order will be returned must not use the eventual return reason, return date, or other information that would only become available after the prediction time.
+
+Historical return features must be computed using information available before the prediction event.
+
+## 16. Return Risk Lab — Optional Machine Learning
+
+Build a predictive module only if the dataset has a reliable return label and sufficient data.
+
+Potential models:
+- Logistic Regression.
+- Random Forest.
+- Gradient boosting, if suitable.
+
+Implement:
+1. Target definition.
+2. Class distribution analysis.
+3. Appropriate train/test split.
+4. Training-only preprocessing.
+5. Baseline model.
+6. Model evaluation.
+7. Confusion matrix.
+8. Precision, recall, and F1-score.
+9. ROC-AUC and PR-AUC when appropriate.
+10. Feature importance or interpretable explanations.
+11. Risk score display.
+12. Model metadata and versioning.
+
+Use time-aware validation where appropriate.
+
+Do not claim the model is accurate without test results. Do not fabricate metrics. Make clear that a risk score is an estimate, not a guarantee.
+
+If the dataset cannot support valid prediction, provide descriptive analytics instead.
+
+## 17. Business Recommendations
+
+Generate evidence-based recommendations from actual analytical results.
+
+Potential areas include:
+
+- Categories with elevated return rates.
+- Discount ranges associated with returns.
+- Delivery delays associated with returns.
+- Product-size inconsistency.
+- Sellers with sustained return problems.
+- Customer segments with distinctive return behaviour.
+
+Each recommendation must include:
+
+- Observed finding.
+- Supporting metric.
+- Sample size.
+- Business interpretation.
+- Suggested action.
+- Expected impact category.
+- Evidence strength.
+- Follow-up KPI.
+
+Separate verified findings from hypotheses. Do not invent expected financial savings or claim causation without supporting evidence.
+
+## 18. Reports and Exports
+
+Implement:
+
+- Cleaned CSV export.
+- Filtered CSV export.
+- Excel workbook generation.
+- PDF executive report.
+- Chart export where practical.
+
+The Excel workbook should contain:
+
+1. Executive Summary
+2. Cleaned Data
+3. Category Analysis
+4. Discount Analysis
+5. Delivery Analysis
+6. Seller Analysis
+7. Return Reasons
+8. Customer Segments
+9. Data Quality Report
+
+Use professional formatting, appropriate number formats, tables, charts, and summary metrics. Include a clear explanation when a particular analysis cannot be performed.
+
+The PDF should contain:
+- Project overview.
+- Dataset summary.
+- Data-quality findings.
+- Key charts.
+- Verified business insights.
+- Recommendations.
+- Methodology and limitations.
+
+All exported reports must use the same verified calculation logic as the dashboard.
+
+## 19. MongoDB Architecture
+
+Create a MongoDB database named `returnwise_db`.
+
+Potential collections include:
+
+- `datasets`
+- `import_jobs`
+- `orders`
+- `products`
+- `customers`
+- `deliveries`
+- `returns`
+- `analysis_results`
+- `data_quality_reports`
+- `model_runs`
+- `recommendations`
+
+Adapt the collections to the real dataset instead of forcing an unsuitable schema.
+
+Requirements:
+- Store dataset metadata.
+- Track import status.
+- Keep raw files separate from cleaned records.
+- Record processing versions.
+- Use bulk inserts and updates.
+- Add appropriate indexes.
+- Validate imported records.
+- Prevent unintended duplicate imports.
+- Use pagination.
+- Handle connection failures.
+- Store credentials in environment variables.
+
+Provide `.env.example` with a local MongoDB URI such as:
+
+`MONGODB_URI=mongodb://localhost:27017/`
+
+Explain how to start MongoDB Community Server and inspect the database using MongoDB Compass.
+
+## 20. FastAPI Backend
+
+Create a modular FastAPI backend with endpoints similar to:
+
+- `GET /api/health`
+- `GET /api/datasets`
+- `POST /api/datasets/upload`
+- `GET /api/datasets/{dataset_id}/profile`
+- `POST /api/datasets/{dataset_id}/clean`
+- `GET /api/overview`
+- `GET /api/analytics/returns`
+- `GET /api/analytics/categories`
+- `GET /api/analytics/discounts`
+- `GET /api/analytics/delivery`
+- `GET /api/analytics/customers`
+- `GET /api/analytics/sellers`
+- `GET /api/data-quality`
+- `GET /api/data-explorer`
+- `POST /api/features/generate`
+- `POST /api/models/train`
+- `GET /api/models/{model_id}/metrics`
+- `POST /api/reports/excel`
+- `POST /api/reports/pdf`
+
+Adapt endpoint names and payloads to the implementation.
+
+Use Pydantic schemas, input validation, structured error responses, pagination, and appropriate HTTP status codes.
+
+Secure uploads with file-size limits, CSV validation, safe filenames, and safe path handling.
+
+## 21. Frontend Integration
+
+Create a centralized Axios API client.
+
+Requirements:
+- Environment-based API URL.
+- Consistent error handling.
+- Loading and empty states.
+- Search and filter parameters.
+- Pagination.
+- Request cancellation where useful.
+- Clear user-facing error messages.
+
+Connect the interface to real backend data. Never use hardcoded demo metrics in the finished dashboard.
+
+## 22. Recommended Project Structure
+
+```text
+returnwise/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── layouts/
+│   │   ├── pages/
+│   │   ├── charts/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   └── App.jsx
+│   ├── package.json
+│   └── .env.example
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── core/
+│   │   ├── db/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   ├── analytics/
+│   │   ├── preprocessing/
+│   │   ├── features/
+│   │   ├── models/
+│   │   └── reports/
+│   ├── tests/
+│   ├── requirements.txt
+│   └── .env.example
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── return_analysis.ipynb
+├── reports/
+├── README.md
+└── .gitignore
+```
+
+You may adapt this structure while keeping the frontend, backend, database layer, analytics, and reports cleanly separated.
+
+## 23. Testing
+
+Write automated tests for:
+
+- CSV parsing.
+- Data-quality validation.
+- Duplicate handling.
+- Join correctness.
+- Return-rate calculations.
+- Discount calculations.
+- Delivery-delay calculations.
+- Customer segmentation.
+- Feature engineering.
+- Data-leakage prevention.
+- API validation.
+- Database import and retrieval.
+- Excel and PDF generation.
+- Frontend loading and error states.
+
+Verify that dashboard values match backend responses, notebook results, and exported reports.
+
+## 24. Required Deliverables
+
+Deliver a working application containing:
+
+1. React.js frontend.
+2. Python FastAPI backend.
+3. MongoDB integration.
+4. Dataset import and inspection pipeline.
+5. Data-cleaning workflow.
+6. EDA notebook.
+7. Interactive analytics dashboard.
+8. Feature-engineering module.
+9. Optional evaluated ML model.
+10. Excel workbook.
+11. PDF executive report.
+12. Business recommendations.
+13. Automated tests.
+14. `.env.example` files.
+15. Complete README and setup instructions.
+
+## 25. Implementation Order
+
+Follow this order strictly:
+
+**Phase 1 — Dataset audit:** Inspect the real extracted files and produce an inventory, schema, data-quality, and relationship report.
+
+**Phase 2 — Data processing:** Build cleaning, validation, joining, and transformation pipelines.
+
+**Phase 3 — Backend and database:** Implement MongoDB integration and tested FastAPI endpoints.
+
+**Phase 4 — UI foundation:** Build the professional design system, responsive sidebar, header, reusable components, and page layouts.
+
+**Phase 5 — Analytics:** Implement all applicable dashboards and connect them to real backend results.
+
+**Phase 6 — Feature engineering and ML:** Build supported features and optional prediction models without leakage.
+
+**Phase 7 — Reporting:** Implement Excel and PDF exports.
+
+**Phase 8 — Testing:** Verify functionality, calculations, responsiveness, error handling, and data consistency.
+
+**Phase 9 — Documentation:** Provide installation instructions, environment setup, database configuration, import instructions, and run commands.
+
+Do not stop after generating a plan or a static dashboard. Build and test the actual application incrementally.
+
+## 26. Final Acceptance Criteria
+
+The project is complete when:
+
+- The application runs locally using documented commands.
+- The actual extracted dataset can be imported.
+- MongoDB data is accessible through MongoDB Compass.
+- All displayed analytics use real, validated data.
+- The design follows the 60% white, 20% dark green, 10% light green, and 10% multicolor system.
+- All available pages and interactions work.
+- Data-quality problems are transparent.
+- Reports export successfully.
+- Predictive models, if implemented, have honest evaluation results.
+- Tests pass or remaining failures are documented.
+- No fabricated records, findings, or performance metrics are presented.
+
+**START NOW:** Inspect every file in `data/raw/`. First produce the actual dataset inventory and column-mapping report. Then implement ReturnWise step by step using the verified schema. Do not wait for additional prompts to begin the next implementation phase.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-13T11:20:56+05:30.
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from None to Claude Opus 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>

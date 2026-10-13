@@ -1,0 +1,51 @@
+product_id,product_name,category,unit_cost,unit_price,margin_pct
+PROD0001,Wireless Earbuds,Electronics,1222.65,2978.99,0.59
+PROD0002,Smartwatch,Electronics,3061.35,4273.58,0.284
+PROD0003,Bluetooth Speaker,Electronics,1356.14,3142.61,0.568
+PROD0004,Laptop Backpack,Electronics,614.42,1971.0,0.688
+PROD0005,Power Bank 20000mAh,Electronics,818.21,1478.08,0.446
+PROD0006,Smartphone Case,Electronics,405.18,657.82,0.384
+PROD0007,Gaming Mouse,Electronics,774.46,2398.35,0.677
+PROD0008,USB-C Hub,Electronics,1042.01,1111.28,0.062
+PROD0009,Noise Cancelling Headphones,Electronics,6193.21,7194.38,0.139
+PROD0010,Action Camera,Electronics,4455.89,14558.72,0.694
+PROD0011,Men's Casual Shirt,Fashion,1147.02,1364.75,0.16
+PROD0012,Women's Kurti,Fashion,535.76,1572.6,0.659
+PROD0013,Denim Jeans,Fashion,775.46,2374.52,0.673
+PROD0014,Running Shoes,Fashion,2280.29,2757.65,0.173
+PROD0015,Leather Wallet,Fashion,531.63,1250.54,0.575
+PROD0016,Sunglasses,Fashion,529.93,2390.13,0.778
+PROD0017,Formal Blazer,Fashion,2060.53,4778.51,0.569
+PROD0018,Women's Handbag,Fashion,897.15,4185.64,0.786
+PROD0019,Sports T-Shirt,Fashion,529.86,957.5,0.447
+PROD0020,Winter Jacket,Fashion,1413.0,4914.12,0.712
+PROD0021,Non-stick Cookware Set,Home & Kitchen,1897.68,3340.76,0.432
+PROD0022,Electric Kettle,Home & Kitchen,856.21,1469.28,0.417
+PROD0023,Bedsheet Set,Home & Kitchen,731.33,2142.79,0.659
+PROD0024,Mixer Grinder,Home & Kitchen,2519.02,3493.68,0.279
+PROD0025,Table Lamp,Home & Kitchen,821.7,1494.98,0.45
+PROD0026,Storage Organizer Set,Home & Kitchen,463.64,1145.07,0.595
+PROD0027,Air Fryer,Home & Kitchen,2226.76,6822.61,0.674
+PROD0028,Vacuum Cleaner,Home & Kitchen,2850.07,9171.98,0.689
+PROD0029,Ceramic Dinner Set,Home & Kitchen,1145.41,2073.63,0.448
+PROD0030,Curtain Set,Home & Kitchen,570.98,1158.24,0.507
+PROD0031,Face Serum,Beauty & Personal Care,439.86,862.99,0.49
+PROD0032,Hair Dryer,Beauty & Personal Care,1235.46,1603.35,0.229
+PROD0033,Perfume 100ml,Beauty & Personal Care,1985.67,2386.05,0.168
+PROD0034,Sunscreen SPF50,Beauty & Personal Care,204.42,623.0,0.672
+PROD0035,Electric Trimmer,Beauty & Personal Care,666.35,2299.69,0.71
+PROD0036,Makeup Kit,Beauty & Personal Care,1535.5,1808.21,0.151
+PROD0037,Body Lotion Combo,Beauty & Personal Care,533.58,1134.82,0.53
+PROD0038,Hair Straightener,Beauty & Personal Care,1780.63,2871.85,0.38
+PROD0039,Yoga Mat,Sports & Fitness,403.83,681.07,0.407
+PROD0040,Adjustable Dumbbells,Sports & Fitness,2420.18,5311.32,0.544
+PROD0041,Resistance Bands Set,Sports & Fitness,259.0,579.12,0.553
+PROD0042,Cycling Helmet,Sports & Fitness,914.28,3177.33,0.712
+PROD0043,Fitness Tracker Band,Sports & Fitness,1380.75,2914.27,0.526
+PROD0044,Skipping Rope,Sports & Fitness,156.71,311.15,0.496
+PROD0045,Badminton Racket Set,Sports & Fitness,527.54,1335.85,0.605
+PROD0046,Bestseller Novel,Books & Stationery,341.35,425.08,0.197
+PROD0047,Planner Notebook,Books & Stationery,375.29,392.75,0.044
+PROD0048,Fountain Pen Set,Books & Stationery,747.01,645.89,-0.157
+PROD0049,Kids Activity Book,Books & Stationery,301.51,482.17,0.375
+PROD0050,Desk Organizer,Books & Stationery,340.65,750.27,0.546

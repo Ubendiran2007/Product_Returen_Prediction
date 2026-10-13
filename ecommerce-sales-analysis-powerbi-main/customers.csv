@@ -1,0 +1,601 @@
+customer_id,first_name,last_name,email,city,country,region,signup_date,acquisition_channel,age,gender,membership_tier
+CUST00001,Liam,Nair,liam.nair1@example.com,Mumbai,India,APAC,2024-07-17,Paid Search,38,Male,Silver
+CUST00002,Lucas,Ramirez,lucas.ramirez2@example.com,Bengaluru,India,APAC,2025-05-14,Organic Search,32,Male,Standard
+CUST00003,Elizabeth,Young,elizabeth.young3@example.com,Mumbai,India,APAC,2024-02-12,Email Marketing,39,Other,Silver
+CUST00004,Kiara,Perez,kiara.perez4@example.com,Toronto,Canada,North America,2024-07-23,Referral,47,Male,Silver
+CUST00005,Ananya,Lee,ananya.lee5@example.com,New York,USA,North America,2024-07-23,Organic Search,31,Female,Standard
+CUST00006,William,Reddy,william.reddy6@example.com,Los Angeles,USA,North America,2024-12-05,Email Marketing,31,Male,Silver
+CUST00007,Susan,Nair,susan.nair7@example.com,Chicago,USA,North America,2023-06-11,Social Media,48,Other,Silver
+CUST00008,Sofia,Thomas,sofia.thomas8@example.com,Toronto,Canada,North America,2024-01-29,Email Marketing,40,Male,Silver
+CUST00009,Mia,Rodriguez,mia.rodriguez9@example.com,Bengaluru,India,APAC,2024-04-21,Direct,29,Female,Standard
+CUST00010,Liam,Thomas,liam.thomas10@example.com,Pune,India,APAC,2025-01-28,Paid Search,38,Other,Standard
+CUST00011,Diego,Singh,diego.singh11@example.com,Vancouver,Canada,North America,2023-12-17,Social Media,29,Male,Standard
+CUST00012,William,Davis,william.davis12@example.com,Sydney,Australia,APAC,2024-03-25,Email Marketing,29,Male,Standard
+CUST00013,Aditya,Wilson,aditya.wilson13@example.com,Chicago,USA,North America,2024-07-02,Organic Search,36,Other,Gold
+CUST00014,James,Brown,james.brown14@example.com,Sydney,Australia,APAC,2025-10-19,Paid Search,18,Other,Standard
+CUST00015,Anika,Iyer,anika.iyer15@example.com,Ahmedabad,India,APAC,2024-06-22,Referral,18,Female,Gold
+CUST00016,David,Thomas,david.thomas16@example.com,Ahmedabad,India,APAC,2023-10-11,Social Media,28,Male,Silver
+CUST00017,Sofia,Nair,sofia.nair17@example.com,Hyderabad,India,APAC,2023-11-24,Referral,24,Female,Silver
+CUST00018,William,Moore,william.moore18@example.com,Vancouver,Canada,North America,2025-08-16,Social Media,36,Other,Gold
+CUST00019,Aarav,Nair,aarav.nair19@example.com,Melbourne,Australia,APAC,2024-06-30,Referral,25,Female,Standard
+CUST00020,Joseph,Smith,joseph.smith20@example.com,Phoenix,USA,North America,2023-01-07,Affiliate,21,Other,Standard
+CUST00021,Elizabeth,Johnson,elizabeth.johnson21@example.com,Manchester,UK,Europe,2023-08-06,Direct,47,Female,Gold
+CUST00022,Elizabeth,Young,elizabeth.young22@example.com,Kolkata,India,APAC,2023-11-10,Paid Search,31,Male,Silver
+CUST00023,Mia,Clark,mia.clark23@example.com,Mumbai,India,APAC,2024-10-25,Social Media,34,Male,Gold
+CUST00024,Mateo,Martinez,mateo.martinez24@example.com,Ahmedabad,India,APAC,2023-04-29,Paid Search,21,Other,Platinum
+CUST00025,Sai,Harris,sai.harris25@example.com,Bengaluru,India,APAC,2023-09-15,Organic Search,29,Female,Platinum
+CUST00026,Ananya,Miller,ananya.miller26@example.com,Manchester,UK,Europe,2025-05-16,Affiliate,34,Other,Silver
+CUST00027,Mason,Williams,mason.williams27@example.com,Berlin,Germany,Europe,2024-09-30,Paid Search,23,Other,Silver
+CUST00028,Mary,Clark,mary.clark28@example.com,Phoenix,USA,North America,2023-09-05,Paid Search,37,Male,Standard
+CUST00029,Karen,Lewis,karen.lewis29@example.com,Ahmedabad,India,APAC,2024-03-27,Organic Search,28,Other,Silver
+CUST00030,Kiara,Singh,kiara.singh30@example.com,Delhi,India,APAC,2024-11-07,Organic Search,31,Male,Standard
+CUST00031,Linda,Brown,linda.brown31@example.com,Birmingham,UK,Europe,2023-09-28,Referral,28,Other,Silver
+CUST00032,Myra,White,myra.white32@example.com,Houston,USA,North America,2024-01-25,Organic Search,50,Other,Standard
+CUST00033,Joseph,Martin,joseph.martin33@example.com,Phoenix,USA,North America,2023-04-21,Email Marketing,33,Other,Standard
+CUST00034,David,Anderson,david.anderson34@example.com,Chennai,India,APAC,2024-05-24,Organic Search,24,Other,Standard
+CUST00035,Joseph,Johnson,joseph.johnson35@example.com,Jaipur,India,APAC,2025-08-05,Paid Search,41,Male,Standard
+CUST00036,Sofia,Lewis,sofia.lewis36@example.com,Chennai,India,APAC,2023-04-14,Email Marketing,23,Other,Gold
+CUST00037,Sai,Garcia,sai.garcia37@example.com,Pune,India,APAC,2025-04-12,Social Media,35,Male,Gold
+CUST00038,Valentina,Kumar,valentina.kumar38@example.com,Pune,India,APAC,2025-02-15,Organic Search,18,Female,Standard
+CUST00039,Chen,Thompson,chen.thompson39@example.com,Lucknow,India,APAC,2025-05-16,Email Marketing,22,Other,Platinum
+CUST00040,Jessica,Harris,jessica.harris40@example.com,Hyderabad,India,APAC,2024-01-24,Paid Search,35,Male,Silver
+CUST00041,Susan,Kumar,susan.kumar41@example.com,Dubai,UAE,Middle East,2024-10-04,Organic Search,40,Other,Standard
+CUST00042,Camila,Clark,camila.clark42@example.com,Pune,India,APAC,2023-04-27,Affiliate,35,Male,Gold
+CUST00043,Arjun,Young,arjun.young43@example.com,Bengaluru,India,APAC,2024-04-26,Paid Search,32,Other,Standard
+CUST00044,Emma,Gupta,emma.gupta44@example.com,Vancouver,Canada,North America,2023-06-17,Paid Search,31,Other,Silver
+CUST00045,James,Miller,james.miller45@example.com,Kolkata,India,APAC,2024-10-05,Paid Search,20,Female,Standard
+CUST00046,Noah,Martinez,noah.martinez46@example.com,Phoenix,USA,North America,2024-10-09,Direct,27,Male,Standard
+CUST00047,Olivia,Robinson,olivia.robinson47@example.com,Chennai,India,APAC,2023-05-31,Social Media,29,Other,Standard
+CUST00048,Diego,Taylor,diego.taylor48@example.com,Bengaluru,India,APAC,2024-05-15,Paid Search,43,Male,Standard
+CUST00049,Susan,Martinez,susan.martinez49@example.com,Vancouver,Canada,North America,2023-01-17,Email Marketing,37,Other,Standard
+CUST00050,Ethan,Reddy,ethan.reddy50@example.com,Hyderabad,India,APAC,2024-06-25,Organic Search,18,Male,Silver
+CUST00051,Ishaan,Davis,ishaan.davis51@example.com,Lucknow,India,APAC,2024-03-07,Email Marketing,36,Male,Silver
+CUST00052,Haruto,Miller,haruto.miller52@example.com,Manchester,UK,Europe,2025-09-27,Paid Search,30,Male,Standard
+CUST00053,Joseph,Davis,joseph.davis53@example.com,Delhi,India,APAC,2023-01-08,Paid Search,27,Male,Silver
+CUST00054,Anika,Smith,anika.smith54@example.com,Dubai,UAE,Middle East,2025-06-23,Social Media,39,Female,Silver
+CUST00055,Ayaan,Singh,ayaan.singh55@example.com,Berlin,Germany,Europe,2023-11-02,Social Media,43,Female,Silver
+CUST00056,Ishaan,Lee,ishaan.lee56@example.com,Hyderabad,India,APAC,2023-03-27,Paid Search,42,Male,Gold
+CUST00057,Aadhya,Garcia,aadhya.garcia57@example.com,Melbourne,Australia,APAC,2023-07-30,Paid Search,26,Other,Gold
+CUST00058,Richard,Allen,richard.allen58@example.com,Dubai,UAE,Middle East,2023-11-13,Direct,31,Male,Gold
+CUST00059,Wei,Johnson,wei.johnson59@example.com,Houston,USA,North America,2023-02-20,Organic Search,36,Female,Gold
+CUST00060,Richard,Garcia,richard.garcia60@example.com,Jaipur,India,APAC,2023-11-23,Referral,42,Male,Standard
+CUST00061,Aditya,White,aditya.white61@example.com,Ahmedabad,India,APAC,2024-02-13,Referral,29,Female,Standard
+CUST00062,Li,Jones,li.jones62@example.com,Ahmedabad,India,APAC,2023-02-18,Email Marketing,32,Female,Standard
+CUST00063,Sofia,Singh,sofia.singh63@example.com,Singapore,Singapore,APAC,2024-07-25,Paid Search,24,Other,Standard
+CUST00064,Yuki,Ramirez,yuki.ramirez64@example.com,New York,USA,North America,2023-02-26,Organic Search,23,Female,Standard
+CUST00065,Anika,Gupta,anika.gupta65@example.com,Chennai,India,APAC,2025-06-08,Paid Search,41,Female,Standard
+CUST00066,Elizabeth,Nair,elizabeth.nair66@example.com,Chicago,USA,North America,2024-01-25,Paid Search,46,Other,Standard
+CUST00067,Barbara,Ramirez,barbara.ramirez67@example.com,Melbourne,Australia,APAC,2024-02-08,Paid Search,33,Male,Platinum
+CUST00068,Camila,Anderson,camila.anderson68@example.com,Vancouver,Canada,North America,2024-10-04,Email Marketing,43,Male,Silver
+CUST00069,Siya,Sanchez,siya.sanchez69@example.com,Lucknow,India,APAC,2025-04-16,Paid Search,37,Other,Standard
+CUST00070,Krishna,Williams,krishna.williams70@example.com,Houston,USA,North America,2025-02-15,Email Marketing,28,Male,Silver
+CUST00071,Siya,Jackson,siya.jackson71@example.com,Birmingham,UK,Europe,2023-01-01,Paid Search,37,Male,Standard
+CUST00072,Karen,Young,karen.young72@example.com,Sydney,Australia,APAC,2024-10-21,Social Media,47,Female,Silver
+CUST00073,Elizabeth,White,elizabeth.white73@example.com,Dubai,UAE,Middle East,2023-12-14,Email Marketing,33,Female,Silver
+CUST00074,Liam,Allen,liam.allen74@example.com,New York,USA,North America,2023-07-11,Referral,48,Male,Silver
+CUST00075,Kiara,Williams,kiara.williams75@example.com,Hyderabad,India,APAC,2023-02-20,Organic Search,18,Female,Silver
+CUST00076,Mia,Singh,mia.singh76@example.com,Phoenix,USA,North America,2025-04-28,Direct,41,Other,Standard
+CUST00077,Mason,Moore,mason.moore77@example.com,London,UK,Europe,2025-03-29,Paid Search,34,Other,Silver
+CUST00078,Valentina,Reddy,valentina.reddy78@example.com,Singapore,Singapore,APAC,2025-05-20,Organic Search,31,Other,Silver
+CUST00079,Vihaan,Lewis,vihaan.lewis79@example.com,Ahmedabad,India,APAC,2023-09-06,Social Media,34,Female,Silver
+CUST00080,Jessica,Young,jessica.young80@example.com,New York,USA,North America,2025-06-25,Email Marketing,18,Other,Gold
+CUST00081,Joseph,Lewis,joseph.lewis81@example.com,Phoenix,USA,North America,2023-11-22,Referral,32,Female,Standard
+CUST00082,Isabella,Garcia,isabella.garcia82@example.com,Sydney,Australia,APAC,2024-07-21,Referral,37,Other,Standard
+CUST00083,Myra,Davis,myra.davis83@example.com,Phoenix,USA,North America,2023-06-08,Email Marketing,47,Male,Standard
+CUST00084,James,Ramirez,james.ramirez84@example.com,Bengaluru,India,APAC,2023-10-11,Organic Search,29,Female,Silver
+CUST00085,Logan,Brown,logan.brown85@example.com,Bengaluru,India,APAC,2025-04-29,Paid Search,26,Other,Standard
+CUST00086,Vihaan,Brown,vihaan.brown86@example.com,Houston,USA,North America,2025-03-08,Direct,29,Other,Platinum
+CUST00087,Vivaan,Robinson,vivaan.robinson87@example.com,Chicago,USA,North America,2025-09-03,Organic Search,42,Female,Standard
+CUST00088,William,Martin,william.martin88@example.com,Birmingham,UK,Europe,2024-03-27,Social Media,36,Female,Standard
+CUST00089,Vivaan,Moore,vivaan.moore89@example.com,New York,USA,North America,2025-04-08,Referral,29,Female,Gold
+CUST00090,Olivia,Ramirez,olivia.ramirez90@example.com,Mumbai,India,APAC,2025-03-17,Social Media,38,Other,Standard
+CUST00091,Noah,Lee,noah.lee91@example.com,Hyderabad,India,APAC,2025-08-03,Organic Search,34,Female,Standard
+CUST00092,Aadhya,Thompson,aadhya.thompson92@example.com,New York,USA,North America,2024-11-22,Referral,42,Female,Standard
+CUST00093,Yuki,Martin,yuki.martin93@example.com,Jaipur,India,APAC,2023-06-17,Social Media,27,Other,Silver
+CUST00094,Robert,Jones,robert.jones94@example.com,Sydney,Australia,APAC,2023-05-21,Referral,31,Other,Standard
+CUST00095,Vivaan,Garcia,vivaan.garcia95@example.com,Kolkata,India,APAC,2023-02-11,Email Marketing,30,Male,Standard
+CUST00096,Ethan,Nair,ethan.nair96@example.com,Toronto,Canada,North America,2024-03-22,Social Media,20,Female,Silver
+CUST00097,Ananya,Young,ananya.young97@example.com,Vancouver,Canada,North America,2023-08-23,Referral,36,Male,Platinum
+CUST00098,Reyansh,Walker,reyansh.walker98@example.com,Mumbai,India,APAC,2024-09-30,Social Media,36,Female,Standard
+CUST00099,Logan,Williams,logan.williams99@example.com,Bengaluru,India,APAC,2024-05-12,Organic Search,34,Female,Gold
+CUST00100,Emma,Nair,emma.nair100@example.com,Toronto,Canada,North America,2023-03-26,Paid Search,31,Female,Silver
+CUST00101,Arjun,Sanchez,arjun.sanchez101@example.com,Sydney,Australia,APAC,2024-11-29,Organic Search,21,Female,Gold
+CUST00102,Reyansh,Lee,reyansh.lee102@example.com,Los Angeles,USA,North America,2025-07-30,Email Marketing,30,Female,Standard
+CUST00103,Barbara,Davis,barbara.davis103@example.com,Vancouver,Canada,North America,2025-09-17,Social Media,30,Other,Silver
+CUST00104,James,Garcia,james.garcia104@example.com,Bengaluru,India,APAC,2024-07-25,Direct,26,Male,Silver
+CUST00105,Sarah,Allen,sarah.allen105@example.com,Melbourne,Australia,APAC,2025-02-15,Paid Search,32,Female,Gold
+CUST00106,Diya,Harris,diya.harris106@example.com,Kolkata,India,APAC,2024-12-27,Referral,37,Female,Standard
+CUST00107,Emma,Davis,emma.davis107@example.com,Birmingham,UK,Europe,2023-01-21,Social Media,50,Male,Standard
+CUST00108,Amelia,Martin,amelia.martin108@example.com,London,UK,Europe,2024-05-07,Email Marketing,35,Other,Silver
+CUST00109,Mary,Verma,mary.verma109@example.com,Bengaluru,India,APAC,2024-08-25,Paid Search,36,Other,Standard
+CUST00110,Ethan,Walker,ethan.walker110@example.com,Los Angeles,USA,North America,2025-08-27,Social Media,33,Female,Standard
+CUST00111,Sophia,Lewis,sophia.lewis111@example.com,New York,USA,North America,2024-12-21,Email Marketing,18,Female,Standard
+CUST00112,Kiara,Nair,kiara.nair112@example.com,Dubai,UAE,Middle East,2024-01-30,Paid Search,33,Other,Silver
+CUST00113,Isabella,Johnson,isabella.johnson113@example.com,Kolkata,India,APAC,2024-03-19,Referral,34,Female,Silver
+CUST00114,Isabella,Clark,isabella.clark114@example.com,Vancouver,Canada,North America,2024-08-02,Affiliate,56,Male,Standard
+CUST00115,Michael,Johnson,michael.johnson115@example.com,Lucknow,India,APAC,2023-01-29,Email Marketing,32,Male,Standard
+CUST00116,Vihaan,Lewis,vihaan.lewis116@example.com,Lucknow,India,APAC,2023-09-16,Email Marketing,36,Female,Standard
+CUST00117,Aarav,Robinson,aarav.robinson117@example.com,Lucknow,India,APAC,2025-08-19,Social Media,33,Female,Standard
+CUST00118,Vihaan,Miller,vihaan.miller118@example.com,London,UK,Europe,2023-08-22,Direct,23,Female,Standard
+CUST00119,Sarah,Kumar,sarah.kumar119@example.com,Hyderabad,India,APAC,2023-11-02,Referral,44,Female,Standard
+CUST00120,Myra,Nair,myra.nair120@example.com,Birmingham,UK,Europe,2025-05-02,Email Marketing,40,Other,Standard
+CUST00121,Barbara,Moore,barbara.moore121@example.com,Phoenix,USA,North America,2025-06-25,Paid Search,41,Other,Platinum
+CUST00122,Siya,Robinson,siya.robinson122@example.com,Vancouver,Canada,North America,2023-05-04,Email Marketing,25,Other,Standard
+CUST00123,Isabella,Brown,isabella.brown123@example.com,Sydney,Australia,APAC,2024-03-08,Paid Search,46,Male,Standard
+CUST00124,Diya,Lewis,diya.lewis124@example.com,Bengaluru,India,APAC,2023-11-17,Organic Search,21,Female,Silver
+CUST00125,Jennifer,Rodriguez,jennifer.rodriguez125@example.com,Delhi,India,APAC,2024-04-19,Paid Search,39,Female,Silver
+CUST00126,Patricia,Singh,patricia.singh126@example.com,Melbourne,Australia,APAC,2024-04-23,Direct,53,Other,Silver
+CUST00127,Wei,Williams,wei.williams127@example.com,Houston,USA,North America,2023-08-24,Social Media,25,Other,Standard
+CUST00128,Navya,Menon,navya.menon128@example.com,Bengaluru,India,APAC,2023-05-03,Organic Search,28,Female,Silver
+CUST00129,Li,Robinson,li.robinson129@example.com,Lucknow,India,APAC,2025-06-18,Organic Search,34,Other,Standard
+CUST00130,David,Davis,david.davis130@example.com,Manchester,UK,Europe,2025-10-08,Social Media,29,Other,Standard
+CUST00131,Joseph,Wilson,joseph.wilson131@example.com,Vancouver,Canada,North America,2024-05-27,Organic Search,20,Male,Platinum
+CUST00132,Yuki,Robinson,yuki.robinson132@example.com,Toronto,Canada,North America,2023-02-12,Affiliate,34,Other,Gold
+CUST00133,Sarah,Gupta,sarah.gupta133@example.com,Singapore,Singapore,APAC,2023-12-25,Social Media,24,Other,Standard
+CUST00134,Navya,Johnson,navya.johnson134@example.com,Toronto,Canada,North America,2025-06-11,Email Marketing,38,Female,Platinum
+CUST00135,Jennifer,Taylor,jennifer.taylor135@example.com,Houston,USA,North America,2024-11-13,Paid Search,25,Male,Gold
+CUST00136,John,Martin,john.martin136@example.com,Berlin,Germany,Europe,2025-10-11,Paid Search,47,Female,Gold
+CUST00137,Jessica,Gupta,jessica.gupta137@example.com,Phoenix,USA,North America,2023-06-30,Paid Search,26,Female,Standard
+CUST00138,Mia,Jackson,mia.jackson138@example.com,Manchester,UK,Europe,2023-01-03,Email Marketing,31,Other,Standard
+CUST00139,Vihaan,Williams,vihaan.williams139@example.com,Manchester,UK,Europe,2025-01-10,Email Marketing,41,Female,Silver
+CUST00140,Isabella,Kumar,isabella.kumar140@example.com,Kolkata,India,APAC,2024-06-30,Social Media,22,Female,Standard
+CUST00141,Mason,Harris,mason.harris141@example.com,Chennai,India,APAC,2023-03-01,Affiliate,36,Other,Gold
+CUST00142,Logan,Smith,logan.smith142@example.com,Lucknow,India,APAC,2023-01-29,Social Media,45,Male,Standard
+CUST00143,Yuki,Nair,yuki.nair143@example.com,Phoenix,USA,North America,2023-08-29,Email Marketing,19,Male,Standard
+CUST00144,Logan,Rodriguez,logan.rodriguez144@example.com,Manchester,UK,Europe,2024-07-13,Paid Search,35,Female,Platinum
+CUST00145,Myra,Thompson,myra.thompson145@example.com,Birmingham,UK,Europe,2023-10-24,Paid Search,36,Other,Silver
+CUST00146,Mateo,Iyer,mateo.iyer146@example.com,Bengaluru,India,APAC,2024-07-19,Referral,41,Female,Standard
+CUST00147,Chen,Sanchez,chen.sanchez147@example.com,Jaipur,India,APAC,2023-01-06,Paid Search,22,Female,Gold
+CUST00148,Karen,Harris,karen.harris148@example.com,Hyderabad,India,APAC,2025-07-03,Social Media,22,Female,Standard
+CUST00149,Isabella,Ramirez,isabella.ramirez149@example.com,Chicago,USA,North America,2025-07-21,Direct,38,Male,Platinum
+CUST00150,Myra,Robinson,myra.robinson150@example.com,Chicago,USA,North America,2024-04-23,Direct,36,Female,Standard
+CUST00151,Sophia,White,sophia.white151@example.com,Berlin,Germany,Europe,2025-02-19,Paid Search,36,Other,Gold
+CUST00152,Noah,Menon,noah.menon152@example.com,London,UK,Europe,2023-03-17,Organic Search,37,Other,Standard
+CUST00153,Reyansh,Perez,reyansh.perez153@example.com,Chennai,India,APAC,2025-07-24,Organic Search,27,Male,Standard
+CUST00154,Noah,Menon,noah.menon154@example.com,Bengaluru,India,APAC,2025-08-19,Referral,36,Female,Standard
+CUST00155,Mason,Jackson,mason.jackson155@example.com,Sydney,Australia,APAC,2023-06-14,Direct,36,Other,Gold
+CUST00156,William,Wilson,william.wilson156@example.com,Sydney,Australia,APAC,2025-09-26,Direct,27,Male,Silver
+CUST00157,Myra,Rodriguez,myra.rodriguez157@example.com,Ahmedabad,India,APAC,2023-07-05,Social Media,50,Male,Silver
+CUST00158,Logan,Reddy,logan.reddy158@example.com,Phoenix,USA,North America,2023-12-07,Email Marketing,38,Male,Standard
+CUST00159,Chen,Kumar,chen.kumar159@example.com,Lucknow,India,APAC,2025-01-04,Paid Search,23,Male,Standard
+CUST00160,Richard,Robinson,richard.robinson160@example.com,Melbourne,Australia,APAC,2024-01-04,Organic Search,39,Male,Silver
+CUST00161,William,Allen,william.allen161@example.com,Melbourne,Australia,APAC,2024-05-08,Social Media,25,Other,Standard
+CUST00162,Patricia,Miller,patricia.miller162@example.com,Phoenix,USA,North America,2024-06-06,Email Marketing,41,Female,Gold
+CUST00163,Lucas,Ramirez,lucas.ramirez163@example.com,Pune,India,APAC,2023-06-01,Social Media,44,Female,Platinum
+CUST00164,Siya,Lee,siya.lee164@example.com,Berlin,Germany,Europe,2024-05-27,Social Media,26,Female,Standard
+CUST00165,William,White,william.white165@example.com,Chennai,India,APAC,2024-04-30,Paid Search,42,Female,Silver
+CUST00166,Mason,Rodriguez,mason.rodriguez166@example.com,Mumbai,India,APAC,2025-03-21,Paid Search,37,Other,Gold
+CUST00167,Mia,Kumar,mia.kumar167@example.com,Vancouver,Canada,North America,2025-10-14,Direct,41,Female,Silver
+CUST00168,Kiara,Young,kiara.young168@example.com,Los Angeles,USA,North America,2024-03-24,Email Marketing,51,Other,Standard
+CUST00169,Isabella,Iyer,isabella.iyer169@example.com,Sydney,Australia,APAC,2023-07-18,Direct,31,Other,Standard
+CUST00170,Chen,Perez,chen.perez170@example.com,Delhi,India,APAC,2025-01-17,Referral,27,Male,Gold
+CUST00171,James,Martin,james.martin171@example.com,Pune,India,APAC,2024-02-16,Organic Search,25,Other,Gold
+CUST00172,Michael,Clark,michael.clark172@example.com,Manchester,UK,Europe,2024-07-12,Direct,26,Female,Gold
+CUST00173,Jennifer,Rodriguez,jennifer.rodriguez173@example.com,Dubai,UAE,Middle East,2024-11-24,Referral,33,Female,Platinum
+CUST00174,Ishaan,Jones,ishaan.jones174@example.com,Melbourne,Australia,APAC,2025-03-24,Affiliate,37,Other,Standard
+CUST00175,Chen,Jackson,chen.jackson175@example.com,Mumbai,India,APAC,2024-06-25,Social Media,36,Female,Standard
+CUST00176,Sophia,Miller,sophia.miller176@example.com,Toronto,Canada,North America,2025-02-19,Direct,41,Female,Standard
+CUST00177,Kiara,White,kiara.white177@example.com,Mumbai,India,APAC,2024-11-02,Direct,34,Male,Silver
+CUST00178,Liam,Thompson,liam.thompson178@example.com,Berlin,Germany,Europe,2024-09-10,Email Marketing,47,Male,Standard
+CUST00179,Aditya,Martinez,aditya.martinez179@example.com,London,UK,Europe,2023-08-26,Organic Search,31,Other,Standard
+CUST00180,Patricia,Thomas,patricia.thomas180@example.com,Melbourne,Australia,APAC,2025-05-08,Social Media,58,Other,Standard
+CUST00181,Richard,Reddy,richard.reddy181@example.com,London,UK,Europe,2025-04-15,Direct,39,Female,Standard
+CUST00182,Michael,Brown,michael.brown182@example.com,Phoenix,USA,North America,2025-06-29,Affiliate,26,Female,Standard
+CUST00183,Lucas,Thomas,lucas.thomas183@example.com,Birmingham,UK,Europe,2025-01-04,Organic Search,24,Female,Standard
+CUST00184,Ayaan,Thompson,ayaan.thompson184@example.com,Bengaluru,India,APAC,2024-03-10,Email Marketing,38,Other,Platinum
+CUST00185,Vihaan,Anderson,vihaan.anderson185@example.com,Ahmedabad,India,APAC,2023-09-15,Referral,31,Male,Standard
+CUST00186,Isabella,Lewis,isabella.lewis186@example.com,Kolkata,India,APAC,2024-03-18,Referral,40,Male,Standard
+CUST00187,Ishaan,Young,ishaan.young187@example.com,Mumbai,India,APAC,2024-07-21,Direct,38,Male,Platinum
+CUST00188,Susan,Miller,susan.miller188@example.com,Pune,India,APAC,2023-08-14,Email Marketing,33,Male,Standard
+CUST00189,Robert,Garcia,robert.garcia189@example.com,Toronto,Canada,North America,2024-10-25,Organic Search,26,Female,Standard
+CUST00190,Sophia,Martin,sophia.martin190@example.com,Manchester,UK,Europe,2023-08-21,Referral,20,Female,Standard
+CUST00191,Michael,Sanchez,michael.sanchez191@example.com,Toronto,Canada,North America,2023-08-12,Social Media,29,Male,Platinum
+CUST00192,Aditya,Clark,aditya.clark192@example.com,Lucknow,India,APAC,2025-07-27,Email Marketing,41,Male,Standard
+CUST00193,Jennifer,Jackson,jennifer.jackson193@example.com,Houston,USA,North America,2023-08-10,Social Media,35,Female,Standard
+CUST00194,Sai,Wilson,sai.wilson194@example.com,Vancouver,Canada,North America,2023-10-31,Organic Search,22,Female,Silver
+CUST00195,Karen,Lewis,karen.lewis195@example.com,Berlin,Germany,Europe,2024-10-27,Paid Search,35,Other,Silver
+CUST00196,Patricia,Sanchez,patricia.sanchez196@example.com,Vancouver,Canada,North America,2025-05-31,Organic Search,37,Other,Standard
+CUST00197,Noah,Lewis,noah.lewis197@example.com,Dubai,UAE,Middle East,2024-03-16,Social Media,26,Male,Standard
+CUST00198,Li,Thompson,li.thompson198@example.com,Chicago,USA,North America,2025-05-01,Referral,35,Female,Standard
+CUST00199,Ethan,Miller,ethan.miller199@example.com,Los Angeles,USA,North America,2023-11-09,Email Marketing,34,Female,Standard
+CUST00200,Yuki,Patel,yuki.patel200@example.com,Bengaluru,India,APAC,2025-06-03,Organic Search,23,Other,Standard
+CUST00201,Krishna,Lewis,krishna.lewis201@example.com,Delhi,India,APAC,2024-11-06,Email Marketing,37,Female,Standard
+CUST00202,Ethan,Lee,ethan.lee202@example.com,Dubai,UAE,Middle East,2023-04-16,Affiliate,39,Other,Standard
+CUST00203,Reyansh,Robinson,reyansh.robinson203@example.com,Manchester,UK,Europe,2024-03-11,Organic Search,43,Female,Standard
+CUST00204,Reyansh,Taylor,reyansh.taylor204@example.com,Birmingham,UK,Europe,2025-01-22,Organic Search,43,Female,Silver
+CUST00205,Wei,Lee,wei.lee205@example.com,Birmingham,UK,Europe,2023-02-23,Email Marketing,21,Other,Gold
+CUST00206,Navya,Verma,navya.verma206@example.com,Pune,India,APAC,2024-07-13,Email Marketing,25,Female,Gold
+CUST00207,Robert,Sharma,robert.sharma207@example.com,Pune,India,APAC,2023-10-21,Social Media,38,Female,Standard
+CUST00208,Sophia,Verma,sophia.verma208@example.com,Bengaluru,India,APAC,2024-03-16,Paid Search,38,Female,Standard
+CUST00209,Michael,Martinez,michael.martinez209@example.com,Dubai,UAE,Middle East,2024-10-26,Referral,38,Other,Silver
+CUST00210,Mateo,Kumar,mateo.kumar210@example.com,Hyderabad,India,APAC,2023-11-19,Referral,68,Male,Silver
+CUST00211,Navya,Perez,navya.perez211@example.com,Melbourne,Australia,APAC,2025-05-18,Social Media,39,Female,Standard
+CUST00212,Aadhya,Sanchez,aadhya.sanchez212@example.com,Chennai,India,APAC,2024-12-07,Social Media,44,Female,Silver
+CUST00213,Karen,Harris,karen.harris213@example.com,Manchester,UK,Europe,2024-09-23,Organic Search,42,Female,Platinum
+CUST00214,Vihaan,Sharma,vihaan.sharma214@example.com,Kolkata,India,APAC,2024-09-09,Direct,39,Male,Silver
+CUST00215,Riya,Wilson,riya.wilson215@example.com,Chennai,India,APAC,2023-01-16,Social Media,31,Female,Standard
+CUST00216,William,Ramirez,william.ramirez216@example.com,Berlin,Germany,Europe,2024-04-16,Social Media,40,Other,Gold
+CUST00217,Arjun,Jackson,arjun.jackson217@example.com,Dubai,UAE,Middle East,2023-03-28,Social Media,27,Female,Gold
+CUST00218,Sofia,Wilson,sofia.wilson218@example.com,Toronto,Canada,North America,2025-05-29,Social Media,31,Other,Silver
+CUST00219,Riya,Nair,riya.nair219@example.com,Chicago,USA,North America,2023-02-12,Affiliate,29,Male,Gold
+CUST00220,Olivia,Thompson,olivia.thompson220@example.com,Berlin,Germany,Europe,2025-01-11,Organic Search,34,Male,Standard
+CUST00221,Karen,Jackson,karen.jackson221@example.com,Manchester,UK,Europe,2023-06-11,Paid Search,54,Female,Silver
+CUST00222,Kiara,Anderson,kiara.anderson222@example.com,Singapore,Singapore,APAC,2023-12-11,Organic Search,18,Other,Standard
+CUST00223,Elizabeth,Williams,elizabeth.williams223@example.com,Singapore,Singapore,APAC,2024-12-16,Paid Search,40,Other,Gold
+CUST00224,Myra,Reddy,myra.reddy224@example.com,Hyderabad,India,APAC,2024-06-08,Organic Search,19,Other,Standard
+CUST00225,Isabella,Singh,isabella.singh225@example.com,Pune,India,APAC,2025-10-08,Social Media,29,Other,Silver
+CUST00226,Mary,Robinson,mary.robinson226@example.com,Sydney,Australia,APAC,2024-10-23,Direct,43,Other,Standard
+CUST00227,Mary,Singh,mary.singh227@example.com,London,UK,Europe,2025-06-24,Email Marketing,34,Female,Silver
+CUST00228,Robert,Sanchez,robert.sanchez228@example.com,Bengaluru,India,APAC,2024-09-27,Social Media,24,Male,Standard
+CUST00229,Yuki,Rodriguez,yuki.rodriguez229@example.com,Bengaluru,India,APAC,2023-07-04,Email Marketing,27,Other,Standard
+CUST00230,Karen,Lewis,karen.lewis230@example.com,Dubai,UAE,Middle East,2023-03-26,Social Media,40,Other,Silver
+CUST00231,James,Young,james.young231@example.com,London,UK,Europe,2025-10-23,Organic Search,27,Male,Standard
+CUST00232,Wei,Anderson,wei.anderson232@example.com,Berlin,Germany,Europe,2023-06-22,Social Media,35,Male,Standard
+CUST00233,Logan,Perez,logan.perez233@example.com,Phoenix,USA,North America,2023-11-22,Paid Search,34,Female,Standard
+CUST00234,Mia,Anderson,mia.anderson234@example.com,Melbourne,Australia,APAC,2023-04-18,Referral,28,Other,Standard
+CUST00235,John,Reddy,john.reddy235@example.com,Birmingham,UK,Europe,2025-03-02,Paid Search,53,Other,Gold
+CUST00236,Camila,Young,camila.young236@example.com,Hyderabad,India,APAC,2024-11-13,Organic Search,39,Other,Standard
+CUST00237,Robert,Martinez,robert.martinez237@example.com,Sydney,Australia,APAC,2025-03-13,Organic Search,18,Other,Gold
+CUST00238,Siya,Lewis,siya.lewis238@example.com,Chicago,USA,North America,2024-11-03,Referral,35,Other,Silver
+CUST00239,Sophia,Clark,sophia.clark239@example.com,Bengaluru,India,APAC,2025-05-17,Social Media,28,Male,Standard
+CUST00240,Diya,Brown,diya.brown240@example.com,New York,USA,North America,2025-09-22,Organic Search,41,Male,Standard
+CUST00241,Riya,Reddy,riya.reddy241@example.com,Manchester,UK,Europe,2023-03-19,Email Marketing,26,Other,Standard
+CUST00242,William,Menon,william.menon242@example.com,Pune,India,APAC,2024-01-06,Direct,32,Other,Gold
+CUST00243,Ananya,Perez,ananya.perez243@example.com,Delhi,India,APAC,2025-04-21,Paid Search,38,Other,Standard
+CUST00244,Mary,Allen,mary.allen244@example.com,Lucknow,India,APAC,2025-07-08,Paid Search,41,Male,Standard
+CUST00245,Wei,White,wei.white245@example.com,Kolkata,India,APAC,2025-01-23,Email Marketing,23,Other,Platinum
+CUST00246,Patricia,Rodriguez,patricia.rodriguez246@example.com,Singapore,Singapore,APAC,2025-02-21,Social Media,30,Female,Platinum
+CUST00247,Li,Williams,li.williams247@example.com,Vancouver,Canada,North America,2023-10-11,Direct,29,Male,Silver
+CUST00248,Sofia,Thomas,sofia.thomas248@example.com,Birmingham,UK,Europe,2023-07-30,Email Marketing,28,Other,Gold
+CUST00249,Riya,Patel,riya.patel249@example.com,Singapore,Singapore,APAC,2023-11-25,Paid Search,49,Other,Standard
+CUST00250,Joseph,Patel,joseph.patel250@example.com,Ahmedabad,India,APAC,2025-07-12,Direct,37,Male,Standard
+CUST00251,David,Sanchez,david.sanchez251@example.com,Los Angeles,USA,North America,2024-04-27,Paid Search,22,Male,Standard
+CUST00252,Vivaan,Wilson,vivaan.wilson252@example.com,Chennai,India,APAC,2024-11-17,Referral,42,Male,Standard
+CUST00253,Camila,White,camila.white253@example.com,Berlin,Germany,Europe,2023-10-12,Referral,53,Female,Standard
+CUST00254,Aarav,Patel,aarav.patel254@example.com,Mumbai,India,APAC,2024-06-08,Organic Search,43,Male,Silver
+CUST00255,Amelia,Young,amelia.young255@example.com,Manchester,UK,Europe,2025-05-16,Organic Search,20,Female,Standard
+CUST00256,Ayaan,Kumar,ayaan.kumar256@example.com,Ahmedabad,India,APAC,2025-05-09,Email Marketing,29,Other,Standard
+CUST00257,Ayaan,Harris,ayaan.harris257@example.com,Vancouver,Canada,North America,2023-02-03,Email Marketing,45,Other,Standard
+CUST00258,Ishaan,Rodriguez,ishaan.rodriguez258@example.com,Houston,USA,North America,2023-01-04,Email Marketing,27,Male,Silver
+CUST00259,Diya,Patel,diya.patel259@example.com,Manchester,UK,Europe,2025-01-08,Organic Search,37,Other,Silver
+CUST00260,Chen,Sanchez,chen.sanchez260@example.com,Birmingham,UK,Europe,2023-02-11,Paid Search,40,Female,Standard
+CUST00261,William,Thomas,william.thomas261@example.com,Jaipur,India,APAC,2023-02-03,Paid Search,25,Male,Standard
+CUST00262,Amelia,Reddy,amelia.reddy262@example.com,Singapore,Singapore,APAC,2024-11-11,Organic Search,33,Female,Silver
+CUST00263,Li,Johnson,li.johnson263@example.com,Singapore,Singapore,APAC,2025-08-09,Affiliate,18,Female,Silver
+CUST00264,Wei,Iyer,wei.iyer264@example.com,Bengaluru,India,APAC,2025-07-26,Organic Search,24,Male,Standard
+CUST00265,Saanvi,Gupta,saanvi.gupta265@example.com,New York,USA,North America,2024-09-27,Social Media,31,Other,Standard
+CUST00266,Aditya,Williams,aditya.williams266@example.com,Lucknow,India,APAC,2025-01-01,Direct,22,Male,Gold
+CUST00267,John,Davis,john.davis267@example.com,Chennai,India,APAC,2025-01-23,Social Media,48,Female,Silver
+CUST00268,Valentina,Moore,valentina.moore268@example.com,New York,USA,North America,2024-01-18,Social Media,21,Female,Standard
+CUST00269,Wei,Clark,wei.clark269@example.com,Jaipur,India,APAC,2023-06-19,Referral,30,Male,Standard
+CUST00270,Li,Johnson,li.johnson270@example.com,Birmingham,UK,Europe,2024-08-24,Paid Search,35,Male,Standard
+CUST00271,Riya,Martinez,riya.martinez271@example.com,Phoenix,USA,North America,2025-05-22,Organic Search,46,Female,Standard
+CUST00272,Aditya,Taylor,aditya.taylor272@example.com,Vancouver,Canada,North America,2025-06-09,Paid Search,21,Male,Standard
+CUST00273,Liam,Jackson,liam.jackson273@example.com,Los Angeles,USA,North America,2023-11-24,Affiliate,44,Male,Gold
+CUST00274,Lucas,Perez,lucas.perez274@example.com,Delhi,India,APAC,2023-09-16,Organic Search,34,Other,Standard
+CUST00275,William,Robinson,william.robinson275@example.com,Delhi,India,APAC,2023-11-11,Email Marketing,25,Female,Standard
+CUST00276,Isabella,Singh,isabella.singh276@example.com,Toronto,Canada,North America,2023-10-09,Social Media,38,Female,Standard
+CUST00277,Navya,Garcia,navya.garcia277@example.com,Chennai,India,APAC,2023-02-23,Referral,35,Female,Silver
+CUST00278,Camila,Lewis,camila.lewis278@example.com,Chennai,India,APAC,2024-06-20,Referral,28,Other,Standard
+CUST00279,Olivia,Rodriguez,olivia.rodriguez279@example.com,Berlin,Germany,Europe,2025-10-02,Organic Search,34,Male,Gold
+CUST00280,Mary,Johnson,mary.johnson280@example.com,Berlin,Germany,Europe,2025-06-30,Affiliate,30,Other,Platinum
+CUST00281,James,Taylor,james.taylor281@example.com,Berlin,Germany,Europe,2023-05-13,Social Media,35,Female,Gold
+CUST00282,Haruto,Smith,haruto.smith282@example.com,Berlin,Germany,Europe,2023-12-23,Referral,39,Other,Standard
+CUST00283,Saanvi,Iyer,saanvi.iyer283@example.com,Ahmedabad,India,APAC,2025-10-08,Organic Search,48,Other,Silver
+CUST00284,Patricia,Lewis,patricia.lewis284@example.com,Hyderabad,India,APAC,2023-06-26,Organic Search,22,Female,Platinum
+CUST00285,Amelia,White,amelia.white285@example.com,Manchester,UK,Europe,2025-04-21,Referral,53,Other,Standard
+CUST00286,James,Singh,james.singh286@example.com,Phoenix,USA,North America,2025-08-12,Email Marketing,18,Female,Standard
+CUST00287,Yuki,Lewis,yuki.lewis287@example.com,Sydney,Australia,APAC,2024-01-08,Referral,32,Male,Standard
+CUST00288,Camila,Kumar,camila.kumar288@example.com,Chennai,India,APAC,2023-11-10,Paid Search,39,Male,Standard
+CUST00289,Logan,Jones,logan.jones289@example.com,Los Angeles,USA,North America,2024-08-04,Direct,36,Female,Standard
+CUST00290,Jessica,Davis,jessica.davis290@example.com,Hyderabad,India,APAC,2024-09-12,Email Marketing,28,Male,Silver
+CUST00291,Ananya,Walker,ananya.walker291@example.com,Toronto,Canada,North America,2023-11-12,Organic Search,32,Other,Silver
+CUST00292,Emma,Anderson,emma.anderson292@example.com,Toronto,Canada,North America,2023-03-26,Direct,29,Male,Standard
+CUST00293,Noah,Robinson,noah.robinson293@example.com,Jaipur,India,APAC,2024-03-07,Referral,28,Female,Silver
+CUST00294,Vivaan,Harris,vivaan.harris294@example.com,Sydney,Australia,APAC,2024-08-16,Email Marketing,41,Female,Standard
+CUST00295,Wei,Jackson,wei.jackson295@example.com,Lucknow,India,APAC,2025-07-17,Organic Search,37,Male,Standard
+CUST00296,Richard,White,richard.white296@example.com,Phoenix,USA,North America,2024-02-22,Paid Search,27,Male,Standard
+CUST00297,Logan,Wilson,logan.wilson297@example.com,Dubai,UAE,Middle East,2024-12-08,Affiliate,42,Male,Silver
+CUST00298,Elizabeth,Lewis,elizabeth.lewis298@example.com,Chennai,India,APAC,2024-10-15,Paid Search,36,Male,Standard
+CUST00299,Myra,Menon,myra.menon299@example.com,Chennai,India,APAC,2023-04-14,Paid Search,41,Female,Gold
+CUST00300,Richard,Garcia,richard.garcia300@example.com,Pune,India,APAC,2024-11-01,Direct,39,Other,Standard
+CUST00301,Isabella,Smith,isabella.smith301@example.com,London,UK,Europe,2025-08-14,Social Media,26,Female,Standard
+CUST00302,Sai,Jackson,sai.jackson302@example.com,Manchester,UK,Europe,2025-07-25,Affiliate,28,Male,Silver
+CUST00303,Vihaan,Kumar,vihaan.kumar303@example.com,Lucknow,India,APAC,2025-10-10,Social Media,40,Other,Silver
+CUST00304,Riya,Ramirez,riya.ramirez304@example.com,Mumbai,India,APAC,2023-08-09,Social Media,39,Female,Silver
+CUST00305,Isabella,Jackson,isabella.jackson305@example.com,Los Angeles,USA,North America,2023-04-03,Paid Search,33,Other,Silver
+CUST00306,Michael,Lewis,michael.lewis306@example.com,Lucknow,India,APAC,2023-05-31,Paid Search,35,Female,Silver
+CUST00307,Navya,Allen,navya.allen307@example.com,Melbourne,Australia,APAC,2023-09-01,Organic Search,45,Male,Standard
+CUST00308,Chen,Anderson,chen.anderson308@example.com,Birmingham,UK,Europe,2025-01-18,Referral,28,Male,Silver
+CUST00309,David,Sanchez,david.sanchez309@example.com,Delhi,India,APAC,2023-04-03,Organic Search,38,Other,Standard
+CUST00310,Jennifer,Clark,jennifer.clark310@example.com,Phoenix,USA,North America,2023-11-02,Email Marketing,32,Other,Standard
+CUST00311,Diego,Allen,diego.allen311@example.com,New York,USA,North America,2023-11-29,Paid Search,32,Other,Silver
+CUST00312,Siya,Walker,siya.walker312@example.com,New York,USA,North America,2025-09-30,Email Marketing,43,Female,Standard
+CUST00313,Vivaan,Thomas,vivaan.thomas313@example.com,New York,USA,North America,2023-08-13,Affiliate,41,Other,Standard
+CUST00314,Valentina,Verma,valentina.verma314@example.com,Vancouver,Canada,North America,2025-08-29,Paid Search,41,Other,Gold
+CUST00315,Mia,Walker,mia.walker315@example.com,Toronto,Canada,North America,2024-04-11,Referral,45,Other,Standard
+CUST00316,Barbara,Allen,barbara.allen316@example.com,Singapore,Singapore,APAC,2025-02-17,Organic Search,34,Other,Standard
+CUST00317,Sarah,Nair,sarah.nair317@example.com,Kolkata,India,APAC,2023-02-08,Social Media,40,Female,Standard
+CUST00318,Mason,Brown,mason.brown318@example.com,Houston,USA,North America,2025-10-24,Referral,31,Female,Gold
+CUST00319,Sophia,Kumar,sophia.kumar319@example.com,Berlin,Germany,Europe,2023-10-10,Social Media,36,Other,Standard
+CUST00320,Ethan,White,ethan.white320@example.com,Manchester,UK,Europe,2025-02-10,Paid Search,32,Male,Standard
+CUST00321,Susan,Anderson,susan.anderson321@example.com,Birmingham,UK,Europe,2024-12-26,Email Marketing,34,Other,Silver
+CUST00322,Wei,Miller,wei.miller322@example.com,Vancouver,Canada,North America,2025-09-18,Organic Search,39,Male,Standard
+CUST00323,Siya,Jones,siya.jones323@example.com,Lucknow,India,APAC,2024-08-14,Email Marketing,26,Other,Silver
+CUST00324,James,White,james.white324@example.com,Los Angeles,USA,North America,2024-07-14,Paid Search,52,Other,Silver
+CUST00325,William,Jackson,william.jackson325@example.com,Los Angeles,USA,North America,2023-10-27,Paid Search,24,Female,Platinum
+CUST00326,Sai,Taylor,sai.taylor326@example.com,Phoenix,USA,North America,2024-06-09,Referral,23,Male,Standard
+CUST00327,Susan,Davis,susan.davis327@example.com,Birmingham,UK,Europe,2024-07-10,Organic Search,44,Other,Silver
+CUST00328,Myra,Garcia,myra.garcia328@example.com,Delhi,India,APAC,2024-04-07,Email Marketing,41,Male,Standard
+CUST00329,John,White,john.white329@example.com,Chennai,India,APAC,2023-10-09,Organic Search,39,Other,Platinum
+CUST00330,Ananya,Martin,ananya.martin330@example.com,Sydney,Australia,APAC,2025-09-01,Social Media,39,Male,Silver
+CUST00331,Riya,Wilson,riya.wilson331@example.com,Lucknow,India,APAC,2023-05-02,Direct,33,Male,Silver
+CUST00332,Kiara,Ramirez,kiara.ramirez332@example.com,Dubai,UAE,Middle East,2023-03-18,Direct,25,Male,Standard
+CUST00333,Yuki,Johnson,yuki.johnson333@example.com,Delhi,India,APAC,2025-03-24,Referral,34,Male,Gold
+CUST00334,Sofia,Rodriguez,sofia.rodriguez334@example.com,Delhi,India,APAC,2023-01-19,Paid Search,27,Other,Standard
+CUST00335,John,Rodriguez,john.rodriguez335@example.com,Phoenix,USA,North America,2025-10-08,Direct,42,Male,Gold
+CUST00336,Patricia,Davis,patricia.davis336@example.com,Kolkata,India,APAC,2023-08-19,Paid Search,32,Other,Standard
+CUST00337,Anika,Johnson,anika.johnson337@example.com,Mumbai,India,APAC,2024-11-21,Referral,26,Other,Silver
+CUST00338,Saanvi,Johnson,saanvi.johnson338@example.com,Vancouver,Canada,North America,2025-04-10,Direct,31,Other,Standard
+CUST00339,David,Reddy,david.reddy339@example.com,Pune,India,APAC,2023-10-15,Social Media,37,Male,Standard
+CUST00340,William,Garcia,william.garcia340@example.com,Phoenix,USA,North America,2024-06-30,Affiliate,28,Female,Silver
+CUST00341,Sarah,Sharma,sarah.sharma341@example.com,Jaipur,India,APAC,2025-01-06,Email Marketing,26,Male,Silver
+CUST00342,Patricia,Martinez,patricia.martinez342@example.com,Pune,India,APAC,2025-04-10,Email Marketing,36,Other,Silver
+CUST00343,Mason,Nair,mason.nair343@example.com,Sydney,Australia,APAC,2024-08-27,Paid Search,36,Male,Standard
+CUST00344,Krishna,White,krishna.white344@example.com,Hyderabad,India,APAC,2025-07-20,Referral,29,Other,Standard
+CUST00345,Mason,Lewis,mason.lewis345@example.com,London,UK,Europe,2024-03-23,Referral,29,Other,Silver
+CUST00346,Sofia,Patel,sofia.patel346@example.com,Manchester,UK,Europe,2025-07-03,Social Media,36,Female,Standard
+CUST00347,Sarah,Nair,sarah.nair347@example.com,Delhi,India,APAC,2024-02-19,Social Media,20,Male,Standard
+CUST00348,Haruto,Clark,haruto.clark348@example.com,Phoenix,USA,North America,2023-08-27,Email Marketing,21,Other,Silver
+CUST00349,Sai,Sanchez,sai.sanchez349@example.com,Phoenix,USA,North America,2023-04-24,Social Media,27,Other,Standard
+CUST00350,Sarah,Kumar,sarah.kumar350@example.com,Birmingham,UK,Europe,2025-08-04,Email Marketing,32,Female,Silver
+CUST00351,David,Miller,david.miller351@example.com,Mumbai,India,APAC,2024-03-22,Social Media,36,Male,Standard
+CUST00352,Mason,Singh,mason.singh352@example.com,Birmingham,UK,Europe,2023-05-04,Direct,47,Male,Platinum
+CUST00353,Jennifer,Gupta,jennifer.gupta353@example.com,Lucknow,India,APAC,2025-04-17,Organic Search,41,Male,Silver
+CUST00354,Amelia,Martin,amelia.martin354@example.com,Los Angeles,USA,North America,2025-02-22,Social Media,32,Female,Standard
+CUST00355,Lucas,Ramirez,lucas.ramirez355@example.com,Hyderabad,India,APAC,2024-12-13,Organic Search,33,Other,Standard
+CUST00356,Krishna,Jones,krishna.jones356@example.com,Mumbai,India,APAC,2023-02-16,Affiliate,24,Female,Silver
+CUST00357,Susan,Lee,susan.lee357@example.com,Birmingham,UK,Europe,2025-02-15,Direct,33,Male,Standard
+CUST00358,Ishaan,Davis,ishaan.davis358@example.com,Kolkata,India,APAC,2023-08-20,Organic Search,31,Other,Standard
+CUST00359,Mia,Verma,mia.verma359@example.com,Ahmedabad,India,APAC,2024-02-27,Organic Search,36,Other,Standard
+CUST00360,Emma,Kumar,emma.kumar360@example.com,Ahmedabad,India,APAC,2023-04-01,Paid Search,26,Male,Silver
+CUST00361,Isabella,Kumar,isabella.kumar361@example.com,Hyderabad,India,APAC,2025-10-28,Affiliate,38,Male,Gold
+CUST00362,Amelia,Robinson,amelia.robinson362@example.com,New York,USA,North America,2024-10-18,Paid Search,47,Male,Platinum
+CUST00363,Barbara,Jones,barbara.jones363@example.com,Houston,USA,North America,2024-09-07,Paid Search,33,Other,Platinum
+CUST00364,Mateo,Johnson,mateo.johnson364@example.com,Sydney,Australia,APAC,2025-05-24,Social Media,37,Male,Platinum
+CUST00365,Noah,Moore,noah.moore365@example.com,Manchester,UK,Europe,2024-10-14,Email Marketing,40,Female,Standard
+CUST00366,William,Johnson,william.johnson366@example.com,Singapore,Singapore,APAC,2025-08-27,Paid Search,30,Male,Standard
+CUST00367,Logan,Menon,logan.menon367@example.com,Phoenix,USA,North America,2023-04-29,Social Media,36,Female,Silver
+CUST00368,Krishna,Moore,krishna.moore368@example.com,Ahmedabad,India,APAC,2024-06-06,Organic Search,34,Other,Standard
+CUST00369,Mary,Thomas,mary.thomas369@example.com,Bengaluru,India,APAC,2024-01-26,Organic Search,34,Female,Silver
+CUST00370,Emma,Gupta,emma.gupta370@example.com,Bengaluru,India,APAC,2024-01-21,Referral,27,Other,Silver
+CUST00371,Jessica,Brown,jessica.brown371@example.com,London,UK,Europe,2024-03-03,Direct,34,Female,Standard
+CUST00372,Camila,Sharma,camila.sharma372@example.com,Kolkata,India,APAC,2024-01-25,Affiliate,38,Male,Silver
+CUST00373,Isabella,White,isabella.white373@example.com,Ahmedabad,India,APAC,2024-02-23,Paid Search,47,Male,Silver
+CUST00374,Mia,Rodriguez,mia.rodriguez374@example.com,Chicago,USA,North America,2025-08-12,Social Media,42,Female,Standard
+CUST00375,Michael,Sanchez,michael.sanchez375@example.com,London,UK,Europe,2025-08-12,Organic Search,53,Other,Standard
+CUST00376,Yuki,Wilson,yuki.wilson376@example.com,Kolkata,India,APAC,2025-01-29,Paid Search,27,Male,Silver
+CUST00377,Kiara,Menon,kiara.menon377@example.com,Mumbai,India,APAC,2024-06-18,Social Media,41,Other,Silver
+CUST00378,Richard,Rodriguez,richard.rodriguez378@example.com,Hyderabad,India,APAC,2024-02-06,Paid Search,35,Female,Silver
+CUST00379,Myra,Harris,myra.harris379@example.com,Birmingham,UK,Europe,2024-11-22,Paid Search,53,Female,Platinum
+CUST00380,Noah,Harris,noah.harris380@example.com,Phoenix,USA,North America,2023-12-11,Referral,26,Female,Standard
+CUST00381,Amelia,Ramirez,amelia.ramirez381@example.com,London,UK,Europe,2024-01-12,Direct,26,Other,Platinum
+CUST00382,Vihaan,Clark,vihaan.clark382@example.com,Delhi,India,APAC,2023-06-02,Direct,28,Other,Standard
+CUST00383,Aarav,Martin,aarav.martin383@example.com,Hyderabad,India,APAC,2024-04-18,Organic Search,18,Male,Standard
+CUST00384,Elizabeth,Thompson,elizabeth.thompson384@example.com,Los Angeles,USA,North America,2023-05-04,Email Marketing,29,Other,Gold
+CUST00385,Camila,White,camila.white385@example.com,Melbourne,Australia,APAC,2025-09-26,Organic Search,27,Other,Silver
+CUST00386,Aarav,Verma,aarav.verma386@example.com,Manchester,UK,Europe,2024-07-16,Social Media,35,Female,Standard
+CUST00387,Li,Lee,li.lee387@example.com,Pune,India,APAC,2023-08-08,Direct,37,Other,Standard
+CUST00388,Saanvi,Allen,saanvi.allen388@example.com,Manchester,UK,Europe,2024-05-31,Referral,50,Female,Gold
+CUST00389,Sai,Thomas,sai.thomas389@example.com,Chicago,USA,North America,2025-07-29,Social Media,42,Other,Standard
+CUST00390,Lucas,Patel,lucas.patel390@example.com,Sydney,Australia,APAC,2023-03-06,Organic Search,28,Female,Standard
+CUST00391,Jennifer,Kumar,jennifer.kumar391@example.com,Sydney,Australia,APAC,2023-01-20,Email Marketing,25,Male,Standard
+CUST00392,Joseph,Anderson,joseph.anderson392@example.com,Toronto,Canada,North America,2023-07-15,Direct,38,Male,Standard
+CUST00393,Valentina,Robinson,valentina.robinson393@example.com,London,UK,Europe,2024-07-09,Organic Search,22,Male,Silver
+CUST00394,Navya,Ramirez,navya.ramirez394@example.com,Toronto,Canada,North America,2023-03-09,Organic Search,50,Female,Standard
+CUST00395,Aadhya,Walker,aadhya.walker395@example.com,Hyderabad,India,APAC,2025-03-26,Direct,44,Female,Standard
+CUST00396,Myra,Robinson,myra.robinson396@example.com,Chicago,USA,North America,2024-11-10,Paid Search,29,Other,Standard
+CUST00397,Mason,Patel,mason.patel397@example.com,Manchester,UK,Europe,2024-12-09,Organic Search,18,Female,Standard
+CUST00398,Arjun,Anderson,arjun.anderson398@example.com,Vancouver,Canada,North America,2025-03-23,Affiliate,46,Female,Standard
+CUST00399,Navya,Perez,navya.perez399@example.com,London,UK,Europe,2024-04-12,Paid Search,32,Female,Standard
+CUST00400,Lucas,Walker,lucas.walker400@example.com,Melbourne,Australia,APAC,2025-02-17,Organic Search,45,Other,Standard
+CUST00401,Myra,Singh,myra.singh401@example.com,Bengaluru,India,APAC,2024-07-02,Organic Search,19,Other,Gold
+CUST00402,Ishaan,Moore,ishaan.moore402@example.com,New York,USA,North America,2025-01-08,Organic Search,28,Male,Platinum
+CUST00403,Mary,Thomas,mary.thomas403@example.com,Singapore,Singapore,APAC,2024-07-06,Organic Search,34,Male,Standard
+CUST00404,Mary,Lewis,mary.lewis404@example.com,Birmingham,UK,Europe,2025-04-15,Organic Search,34,Male,Standard
+CUST00405,Sai,Young,sai.young405@example.com,Vancouver,Canada,North America,2024-10-26,Direct,29,Male,Standard
+CUST00406,William,Patel,william.patel406@example.com,Dubai,UAE,Middle East,2024-05-12,Social Media,39,Male,Silver
+CUST00407,Ananya,Iyer,ananya.iyer407@example.com,Jaipur,India,APAC,2024-09-08,Paid Search,24,Male,Standard
+CUST00408,Joseph,Davis,joseph.davis408@example.com,Houston,USA,North America,2024-09-05,Social Media,32,Male,Standard
+CUST00409,Myra,Harris,myra.harris409@example.com,Vancouver,Canada,North America,2024-02-05,Social Media,35,Male,Standard
+CUST00410,David,Anderson,david.anderson410@example.com,Vancouver,Canada,North America,2025-02-17,Referral,38,Female,Standard
+CUST00411,Joseph,Young,joseph.young411@example.com,Hyderabad,India,APAC,2024-09-07,Paid Search,40,Other,Standard
+CUST00412,James,Johnson,james.johnson412@example.com,Chicago,USA,North America,2024-10-15,Paid Search,23,Other,Silver
+CUST00413,Sarah,Garcia,sarah.garcia413@example.com,New York,USA,North America,2025-02-09,Paid Search,20,Female,Standard
+CUST00414,Diego,Robinson,diego.robinson414@example.com,Kolkata,India,APAC,2024-01-04,Email Marketing,45,Other,Standard
+CUST00415,Amelia,Thompson,amelia.thompson415@example.com,Berlin,Germany,Europe,2024-03-05,Social Media,36,Female,Gold
+CUST00416,Arjun,Martin,arjun.martin416@example.com,Melbourne,Australia,APAC,2025-10-19,Organic Search,27,Female,Standard
+CUST00417,Ethan,Menon,ethan.menon417@example.com,Berlin,Germany,Europe,2025-05-16,Referral,47,Male,Standard
+CUST00418,Emma,White,emma.white418@example.com,Toronto,Canada,North America,2025-03-31,Social Media,35,Other,Standard
+CUST00419,Aditya,Thomas,aditya.thomas419@example.com,Berlin,Germany,Europe,2023-06-24,Organic Search,44,Male,Silver
+CUST00420,Robert,Smith,robert.smith420@example.com,Sydney,Australia,APAC,2023-04-01,Social Media,34,Other,Silver
+CUST00421,David,Anderson,david.anderson421@example.com,Houston,USA,North America,2023-08-05,Organic Search,52,Female,Standard
+CUST00422,Sophia,Clark,sophia.clark422@example.com,Birmingham,UK,Europe,2024-03-28,Social Media,49,Female,Standard
+CUST00423,Lucas,Walker,lucas.walker423@example.com,Berlin,Germany,Europe,2025-10-21,Organic Search,31,Male,Standard
+CUST00424,Riya,Martin,riya.martin424@example.com,Bengaluru,India,APAC,2023-08-26,Direct,42,Other,Standard
+CUST00425,Siya,Anderson,siya.anderson425@example.com,Phoenix,USA,North America,2024-02-28,Social Media,39,Female,Standard
+CUST00426,Mary,Perez,mary.perez426@example.com,New York,USA,North America,2023-05-18,Paid Search,46,Other,Standard
+CUST00427,Haruto,Anderson,haruto.anderson427@example.com,Sydney,Australia,APAC,2023-08-12,Email Marketing,25,Male,Gold
+CUST00428,Sophia,Garcia,sophia.garcia428@example.com,Manchester,UK,Europe,2023-12-24,Social Media,40,Female,Silver
+CUST00429,Patricia,Jones,patricia.jones429@example.com,Chicago,USA,North America,2024-01-13,Organic Search,43,Other,Standard
+CUST00430,Vivaan,Allen,vivaan.allen430@example.com,Kolkata,India,APAC,2025-07-09,Social Media,18,Female,Standard
+CUST00431,Aadhya,Brown,aadhya.brown431@example.com,Jaipur,India,APAC,2023-05-09,Social Media,23,Other,Standard
+CUST00432,James,Williams,james.williams432@example.com,Phoenix,USA,North America,2023-08-22,Paid Search,18,Female,Silver
+CUST00433,Liam,Wilson,liam.wilson433@example.com,Vancouver,Canada,North America,2025-03-06,Email Marketing,31,Other,Standard
+CUST00434,Robert,Thompson,robert.thompson434@example.com,Vancouver,Canada,North America,2023-12-20,Referral,40,Other,Gold
+CUST00435,Camila,Allen,camila.allen435@example.com,Toronto,Canada,North America,2023-06-23,Email Marketing,47,Female,Standard
+CUST00436,Siya,Nair,siya.nair436@example.com,Pune,India,APAC,2025-02-03,Email Marketing,34,Other,Standard
+CUST00437,Emma,Iyer,emma.iyer437@example.com,Toronto,Canada,North America,2025-02-24,Social Media,48,Female,Silver
+CUST00438,Mason,Johnson,mason.johnson438@example.com,Birmingham,UK,Europe,2023-12-08,Social Media,21,Male,Standard
+CUST00439,Yuki,Perez,yuki.perez439@example.com,Vancouver,Canada,North America,2023-04-20,Direct,18,Male,Standard
+CUST00440,Saanvi,Moore,saanvi.moore440@example.com,Birmingham,UK,Europe,2025-10-10,Paid Search,33,Female,Standard
+CUST00441,Yuki,Perez,yuki.perez441@example.com,London,UK,Europe,2023-12-09,Organic Search,37,Male,Gold
+CUST00442,Kiara,Rodriguez,kiara.rodriguez442@example.com,Delhi,India,APAC,2024-07-16,Paid Search,33,Female,Standard
+CUST00443,Patricia,Robinson,patricia.robinson443@example.com,Dubai,UAE,Middle East,2025-10-11,Social Media,18,Male,Silver
+CUST00444,Navya,Ramirez,navya.ramirez444@example.com,Los Angeles,USA,North America,2023-03-27,Referral,33,Female,Silver
+CUST00445,Joseph,Reddy,joseph.reddy445@example.com,Dubai,UAE,Middle East,2024-05-21,Paid Search,22,Male,Standard
+CUST00446,Robert,Patel,robert.patel446@example.com,Phoenix,USA,North America,2023-08-29,Referral,40,Male,Standard
+CUST00447,Sophia,Walker,sophia.walker447@example.com,Berlin,Germany,Europe,2024-12-19,Direct,37,Other,Silver
+CUST00448,Ananya,Allen,ananya.allen448@example.com,Hyderabad,India,APAC,2024-02-28,Referral,25,Male,Silver
+CUST00449,Susan,Davis,susan.davis449@example.com,Vancouver,Canada,North America,2023-12-11,Paid Search,29,Other,Standard
+CUST00450,Sarah,Davis,sarah.davis450@example.com,Manchester,UK,Europe,2023-07-15,Organic Search,24,Female,Gold
+CUST00451,Navya,Iyer,navya.iyer451@example.com,Berlin,Germany,Europe,2023-09-29,Paid Search,33,Other,Standard
+CUST00452,Myra,Jackson,myra.jackson452@example.com,London,UK,Europe,2023-10-19,Social Media,42,Female,Silver
+CUST00453,William,Perez,william.perez453@example.com,Bengaluru,India,APAC,2023-07-10,Paid Search,25,Other,Standard
+CUST00454,Diego,Thomas,diego.thomas454@example.com,Phoenix,USA,North America,2025-09-26,Paid Search,38,Male,Gold
+CUST00455,Haruto,Patel,haruto.patel455@example.com,Dubai,UAE,Middle East,2025-07-27,Email Marketing,29,Other,Standard
+CUST00456,Arjun,Ramirez,arjun.ramirez456@example.com,Chicago,USA,North America,2024-03-22,Affiliate,26,Male,Standard
+CUST00457,James,Rodriguez,james.rodriguez457@example.com,New York,USA,North America,2023-09-25,Social Media,33,Female,Gold
+CUST00458,Valentina,Kumar,valentina.kumar458@example.com,Delhi,India,APAC,2023-07-23,Email Marketing,24,Female,Standard
+CUST00459,Diego,Smith,diego.smith459@example.com,Phoenix,USA,North America,2025-07-23,Organic Search,29,Female,Standard
+CUST00460,Mason,Iyer,mason.iyer460@example.com,Sydney,Australia,APAC,2024-09-10,Organic Search,23,Female,Standard
+CUST00461,Michael,Miller,michael.miller461@example.com,Bengaluru,India,APAC,2025-01-31,Email Marketing,51,Other,Standard
+CUST00462,David,Martinez,david.martinez462@example.com,Dubai,UAE,Middle East,2024-04-24,Social Media,34,Male,Silver
+CUST00463,Aarav,Brown,aarav.brown463@example.com,London,UK,Europe,2023-06-09,Organic Search,27,Male,Silver
+CUST00464,Mary,Sharma,mary.sharma464@example.com,Mumbai,India,APAC,2024-12-04,Referral,35,Female,Silver
+CUST00465,Jennifer,Singh,jennifer.singh465@example.com,Ahmedabad,India,APAC,2025-02-23,Organic Search,32,Male,Standard
+CUST00466,Michael,Martinez,michael.martinez466@example.com,Hyderabad,India,APAC,2025-02-22,Referral,32,Male,Silver
+CUST00467,Lucas,Menon,lucas.menon467@example.com,Bengaluru,India,APAC,2023-01-18,Email Marketing,39,Male,Standard
+CUST00468,Amelia,Brown,amelia.brown468@example.com,Sydney,Australia,APAC,2023-11-07,Direct,40,Other,Silver
+CUST00469,Sofia,Brown,sofia.brown469@example.com,Bengaluru,India,APAC,2023-07-25,Organic Search,29,Male,Silver
+CUST00470,William,Taylor,william.taylor470@example.com,Houston,USA,North America,2024-10-06,Referral,28,Male,Standard
+CUST00471,Sai,Garcia,sai.garcia471@example.com,Birmingham,UK,Europe,2024-08-06,Referral,31,Other,Standard
+CUST00472,Haruto,Martinez,haruto.martinez472@example.com,Kolkata,India,APAC,2024-01-22,Referral,18,Female,Silver
+CUST00473,Chen,Garcia,chen.garcia473@example.com,London,UK,Europe,2025-03-01,Organic Search,20,Female,Silver
+CUST00474,Arjun,Clark,arjun.clark474@example.com,Mumbai,India,APAC,2025-01-09,Direct,46,Male,Standard
+CUST00475,Yuki,Robinson,yuki.robinson475@example.com,Houston,USA,North America,2025-01-18,Social Media,48,Male,Silver
+CUST00476,Mia,Singh,mia.singh476@example.com,Mumbai,India,APAC,2023-05-19,Organic Search,31,Male,Standard
+CUST00477,Vihaan,Jackson,vihaan.jackson477@example.com,Manchester,UK,Europe,2024-08-09,Email Marketing,39,Other,Silver
+CUST00478,Joseph,Jackson,joseph.jackson478@example.com,Bengaluru,India,APAC,2023-11-09,Paid Search,36,Female,Standard
+CUST00479,Camila,Brown,camila.brown479@example.com,Hyderabad,India,APAC,2024-10-31,Paid Search,61,Other,Silver
+CUST00480,Noah,Singh,noah.singh480@example.com,Lucknow,India,APAC,2025-06-14,Referral,44,Male,Standard
+CUST00481,Sai,Lee,sai.lee481@example.com,Chennai,India,APAC,2025-07-17,Email Marketing,32,Male,Standard
+CUST00482,Sophia,Johnson,sophia.johnson482@example.com,Chennai,India,APAC,2023-01-26,Email Marketing,25,Other,Standard
+CUST00483,Linda,Taylor,linda.taylor483@example.com,Manchester,UK,Europe,2024-06-14,Organic Search,19,Male,Silver
+CUST00484,Sofia,Davis,sofia.davis484@example.com,Dubai,UAE,Middle East,2023-08-30,Referral,35,Male,Standard
+CUST00485,Joseph,Davis,joseph.davis485@example.com,Manchester,UK,Europe,2023-05-11,Paid Search,27,Other,Silver
+CUST00486,Linda,Thompson,linda.thompson486@example.com,Manchester,UK,Europe,2025-01-07,Organic Search,21,Other,Standard
+CUST00487,Ananya,Miller,ananya.miller487@example.com,Singapore,Singapore,APAC,2023-07-30,Direct,28,Other,Silver
+CUST00488,Kiara,Sanchez,kiara.sanchez488@example.com,Mumbai,India,APAC,2023-04-01,Direct,24,Male,Standard
+CUST00489,Jennifer,Thomas,jennifer.thomas489@example.com,Chicago,USA,North America,2023-11-04,Organic Search,49,Male,Silver
+CUST00490,Camila,Martin,camila.martin490@example.com,Ahmedabad,India,APAC,2024-10-21,Paid Search,41,Other,Standard
+CUST00491,Li,Singh,li.singh491@example.com,Toronto,Canada,North America,2025-02-02,Organic Search,33,Other,Gold
+CUST00492,Diya,Jones,diya.jones492@example.com,Manchester,UK,Europe,2023-04-05,Affiliate,47,Male,Gold
+CUST00493,Sofia,Rodriguez,sofia.rodriguez493@example.com,Singapore,Singapore,APAC,2024-09-28,Paid Search,34,Other,Standard
+CUST00494,Michael,Williams,michael.williams494@example.com,Lucknow,India,APAC,2024-09-14,Referral,26,Male,Standard
+CUST00495,Karen,Harris,karen.harris495@example.com,Singapore,Singapore,APAC,2024-02-05,Referral,47,Other,Silver
+CUST00496,Myra,Menon,myra.menon496@example.com,Mumbai,India,APAC,2025-04-19,Organic Search,38,Other,Standard
+CUST00497,Yuki,Sharma,yuki.sharma497@example.com,New York,USA,North America,2023-01-03,Referral,24,Female,Gold
+CUST00498,Amelia,Martinez,amelia.martinez498@example.com,Chennai,India,APAC,2024-02-25,Social Media,32,Male,Standard
+CUST00499,Vihaan,Menon,vihaan.menon499@example.com,Berlin,Germany,Europe,2024-07-27,Organic Search,26,Male,Gold
+CUST00500,Barbara,Martin,barbara.martin500@example.com,Berlin,Germany,Europe,2025-02-01,Social Media,21,Other,Standard
+CUST00501,Reyansh,Sanchez,reyansh.sanchez501@example.com,Hyderabad,India,APAC,2025-03-18,Organic Search,42,Other,Standard
+CUST00502,Ethan,Iyer,ethan.iyer502@example.com,Ahmedabad,India,APAC,2024-08-20,Paid Search,51,Female,Gold
+CUST00503,David,Wilson,david.wilson503@example.com,New York,USA,North America,2025-07-16,Paid Search,21,Male,Platinum
+CUST00504,Krishna,Walker,krishna.walker504@example.com,Chennai,India,APAC,2023-11-15,Organic Search,39,Female,Standard
+CUST00505,Richard,Nair,richard.nair505@example.com,Birmingham,UK,Europe,2025-01-03,Affiliate,28,Male,Standard
+CUST00506,Patricia,Miller,patricia.miller506@example.com,Chennai,India,APAC,2023-07-05,Organic Search,29,Other,Standard
+CUST00507,Logan,Young,logan.young507@example.com,Delhi,India,APAC,2024-03-16,Direct,28,Female,Standard
+CUST00508,Logan,Garcia,logan.garcia508@example.com,Los Angeles,USA,North America,2025-03-22,Social Media,26,Other,Standard
+CUST00509,Li,Johnson,li.johnson509@example.com,Mumbai,India,APAC,2025-04-08,Direct,34,Other,Silver
+CUST00510,Myra,Reddy,myra.reddy510@example.com,Phoenix,USA,North America,2023-07-28,Referral,26,Male,Standard
+CUST00511,Vihaan,Jones,vihaan.jones511@example.com,Hyderabad,India,APAC,2024-02-10,Direct,36,Female,Silver
+CUST00512,Noah,Patel,noah.patel512@example.com,Toronto,Canada,North America,2024-06-14,Direct,33,Male,Standard
+CUST00513,Arjun,Williams,arjun.williams513@example.com,Sydney,Australia,APAC,2025-06-27,Referral,31,Male,Gold
+CUST00514,Yuki,Anderson,yuki.anderson514@example.com,Chennai,India,APAC,2023-03-29,Direct,25,Male,Standard
+CUST00515,Sarah,Lee,sarah.lee515@example.com,Dubai,UAE,Middle East,2025-03-19,Social Media,28,Female,Silver
+CUST00516,Diya,Taylor,diya.taylor516@example.com,Kolkata,India,APAC,2024-01-19,Paid Search,40,Female,Gold
+CUST00517,Aditya,Allen,aditya.allen517@example.com,Vancouver,Canada,North America,2024-05-18,Email Marketing,38,Female,Standard
+CUST00518,Jessica,White,jessica.white518@example.com,Delhi,India,APAC,2023-06-29,Paid Search,25,Male,Standard
+CUST00519,Noah,Clark,noah.clark519@example.com,Ahmedabad,India,APAC,2023-02-09,Affiliate,34,Other,Standard
+CUST00520,Susan,Harris,susan.harris520@example.com,Los Angeles,USA,North America,2025-10-25,Paid Search,40,Female,Standard
+CUST00521,James,Young,james.young521@example.com,Ahmedabad,India,APAC,2023-03-02,Direct,18,Female,Standard
+CUST00522,Jennifer,Clark,jennifer.clark522@example.com,Los Angeles,USA,North America,2024-04-21,Affiliate,38,Male,Standard
+CUST00523,Myra,Davis,myra.davis523@example.com,Birmingham,UK,Europe,2023-04-25,Referral,28,Male,Silver
+CUST00524,Wei,Moore,wei.moore524@example.com,Los Angeles,USA,North America,2023-12-22,Organic Search,39,Other,Standard
+CUST00525,Sophia,Taylor,sophia.taylor525@example.com,Toronto,Canada,North America,2023-02-27,Email Marketing,27,Female,Platinum
+CUST00526,Sarah,Menon,sarah.menon526@example.com,Toronto,Canada,North America,2024-01-21,Direct,18,Female,Silver
+CUST00527,Diya,Harris,diya.harris527@example.com,Delhi,India,APAC,2023-07-04,Organic Search,19,Other,Standard
+CUST00528,Barbara,White,barbara.white528@example.com,Mumbai,India,APAC,2024-11-10,Direct,34,Male,Gold
+CUST00529,John,Johnson,john.johnson529@example.com,New York,USA,North America,2023-05-02,Organic Search,36,Other,Silver
+CUST00530,Ishaan,Nair,ishaan.nair530@example.com,Manchester,UK,Europe,2025-01-17,Affiliate,25,Female,Silver
+CUST00531,Ethan,Jackson,ethan.jackson531@example.com,Toronto,Canada,North America,2023-07-26,Paid Search,39,Female,Standard
+CUST00532,Ananya,Lee,ananya.lee532@example.com,Sydney,Australia,APAC,2025-09-24,Email Marketing,19,Male,Silver
+CUST00533,Jessica,Allen,jessica.allen533@example.com,Los Angeles,USA,North America,2024-04-02,Email Marketing,33,Male,Standard
+CUST00534,Amelia,Rodriguez,amelia.rodriguez534@example.com,Hyderabad,India,APAC,2023-12-30,Referral,23,Other,Platinum
+CUST00535,David,Robinson,david.robinson535@example.com,Delhi,India,APAC,2024-01-08,Email Marketing,28,Other,Standard
+CUST00536,Sarah,Reddy,sarah.reddy536@example.com,London,UK,Europe,2023-10-16,Paid Search,34,Male,Standard
+CUST00537,James,Smith,james.smith537@example.com,Sydney,Australia,APAC,2023-07-01,Direct,26,Other,Silver
+CUST00538,Mateo,Anderson,mateo.anderson538@example.com,Phoenix,USA,North America,2023-01-24,Paid Search,30,Male,Silver
+CUST00539,Robert,Miller,robert.miller539@example.com,Chennai,India,APAC,2023-01-03,Organic Search,43,Female,Silver
+CUST00540,Ananya,Martin,ananya.martin540@example.com,London,UK,Europe,2025-02-14,Paid Search,28,Female,Standard
+CUST00541,Jennifer,Robinson,jennifer.robinson541@example.com,Sydney,Australia,APAC,2024-04-06,Organic Search,41,Male,Gold
+CUST00542,Aditya,Rodriguez,aditya.rodriguez542@example.com,Mumbai,India,APAC,2024-10-14,Paid Search,23,Male,Standard
+CUST00543,Ananya,Moore,ananya.moore543@example.com,Pune,India,APAC,2023-06-03,Social Media,38,Male,Standard
+CUST00544,Olivia,White,olivia.white544@example.com,Berlin,Germany,Europe,2023-03-05,Social Media,46,Other,Standard
+CUST00545,Mateo,Lee,mateo.lee545@example.com,Pune,India,APAC,2023-04-20,Organic Search,18,Male,Platinum
+CUST00546,Richard,Lewis,richard.lewis546@example.com,Dubai,UAE,Middle East,2024-06-27,Email Marketing,26,Female,Standard
+CUST00547,Vihaan,Jackson,vihaan.jackson547@example.com,Toronto,Canada,North America,2025-10-02,Organic Search,39,Female,Standard
+CUST00548,Sai,Rodriguez,sai.rodriguez548@example.com,Melbourne,Australia,APAC,2025-09-10,Organic Search,32,Male,Standard
+CUST00549,Liam,Rodriguez,liam.rodriguez549@example.com,Bengaluru,India,APAC,2025-08-27,Direct,37,Female,Gold
+CUST00550,Jennifer,Harris,jennifer.harris550@example.com,Melbourne,Australia,APAC,2024-06-26,Organic Search,28,Other,Standard
+CUST00551,Michael,Moore,michael.moore551@example.com,Los Angeles,USA,North America,2024-01-18,Social Media,34,Female,Standard
+CUST00552,Anika,Jones,anika.jones552@example.com,Jaipur,India,APAC,2023-05-07,Organic Search,32,Other,Silver
+CUST00553,Sai,Taylor,sai.taylor553@example.com,Birmingham,UK,Europe,2025-04-27,Affiliate,44,Other,Standard
+CUST00554,Vihaan,Moore,vihaan.moore554@example.com,Manchester,UK,Europe,2025-05-07,Affiliate,36,Other,Gold
+CUST00555,Jennifer,Robinson,jennifer.robinson555@example.com,Ahmedabad,India,APAC,2025-09-02,Paid Search,37,Female,Gold
+CUST00556,Logan,Gupta,logan.gupta556@example.com,Manchester,UK,Europe,2023-10-29,Organic Search,30,Female,Standard
+CUST00557,Ananya,Brown,ananya.brown557@example.com,Kolkata,India,APAC,2023-09-16,Organic Search,29,Male,Platinum
+CUST00558,Joseph,Williams,joseph.williams558@example.com,Sydney,Australia,APAC,2023-10-30,Direct,30,Female,Standard
+CUST00559,Amelia,Singh,amelia.singh559@example.com,Bengaluru,India,APAC,2025-03-05,Social Media,37,Other,Standard
+CUST00560,Navya,Clark,navya.clark560@example.com,Phoenix,USA,North America,2023-01-26,Referral,30,Other,Silver
+CUST00561,Chen,Martin,chen.martin561@example.com,Chennai,India,APAC,2025-04-28,Organic Search,36,Other,Silver
+CUST00562,Isabella,Reddy,isabella.reddy562@example.com,Chennai,India,APAC,2023-07-26,Referral,52,Other,Gold
+CUST00563,Mateo,Martin,mateo.martin563@example.com,Jaipur,India,APAC,2025-02-23,Email Marketing,41,Other,Silver
+CUST00564,Aditya,Johnson,aditya.johnson564@example.com,Jaipur,India,APAC,2025-04-05,Organic Search,31,Other,Silver
+CUST00565,David,Gupta,david.gupta565@example.com,Chicago,USA,North America,2024-11-09,Email Marketing,44,Male,Silver
+CUST00566,Camila,Davis,camila.davis566@example.com,Los Angeles,USA,North America,2023-02-11,Paid Search,30,Female,Standard
+CUST00567,Yuki,Harris,yuki.harris567@example.com,Berlin,Germany,Europe,2023-07-21,Affiliate,18,Male,Standard
+CUST00568,Sophia,Perez,sophia.perez568@example.com,Singapore,Singapore,APAC,2024-10-19,Paid Search,24,Female,Silver
+CUST00569,Sai,Williams,sai.williams569@example.com,Phoenix,USA,North America,2024-03-08,Direct,18,Female,Silver
+CUST00570,Isabella,Clark,isabella.clark570@example.com,Los Angeles,USA,North America,2023-04-26,Social Media,30,Male,Standard
+CUST00571,Logan,Sanchez,logan.sanchez571@example.com,Chicago,USA,North America,2023-10-05,Referral,34,Other,Gold
+CUST00572,Vivaan,Johnson,vivaan.johnson572@example.com,Kolkata,India,APAC,2024-02-16,Direct,49,Male,Standard
+CUST00573,Vihaan,Thomas,vihaan.thomas573@example.com,Berlin,Germany,Europe,2024-02-12,Paid Search,36,Female,Silver
+CUST00574,Liam,Nair,liam.nair574@example.com,Melbourne,Australia,APAC,2023-03-04,Paid Search,32,Female,Silver
+CUST00575,Diya,White,diya.white575@example.com,Toronto,Canada,North America,2024-12-17,Paid Search,41,Female,Silver
+CUST00576,Mason,Patel,mason.patel576@example.com,Lucknow,India,APAC,2023-02-26,Paid Search,18,Male,Gold
+CUST00577,Mia,Brown,mia.brown577@example.com,Ahmedabad,India,APAC,2024-04-06,Email Marketing,36,Female,Silver
+CUST00578,Elizabeth,Verma,elizabeth.verma578@example.com,Singapore,Singapore,APAC,2023-01-19,Social Media,40,Male,Silver
+CUST00579,Emma,Sharma,emma.sharma579@example.com,Ahmedabad,India,APAC,2024-05-31,Email Marketing,20,Female,Silver
+CUST00580,Logan,Davis,logan.davis580@example.com,Houston,USA,North America,2025-02-10,Direct,44,Female,Standard
+CUST00581,Patricia,Martinez,patricia.martinez581@example.com,Melbourne,Australia,APAC,2025-03-24,Social Media,37,Male,Silver
+CUST00582,Ethan,Thomas,ethan.thomas582@example.com,Birmingham,UK,Europe,2024-08-01,Paid Search,30,Male,Standard
+CUST00583,John,Davis,john.davis583@example.com,Sydney,Australia,APAC,2024-10-27,Direct,39,Female,Silver
+CUST00584,Valentina,Martinez,valentina.martinez584@example.com,Kolkata,India,APAC,2023-11-04,Social Media,54,Male,Gold
+CUST00585,Wei,Young,wei.young585@example.com,Chicago,USA,North America,2024-10-16,Email Marketing,35,Other,Standard
+CUST00586,Linda,Rodriguez,linda.rodriguez586@example.com,Jaipur,India,APAC,2025-05-07,Paid Search,36,Other,Standard
+CUST00587,Logan,Robinson,logan.robinson587@example.com,Kolkata,India,APAC,2024-12-03,Referral,29,Male,Silver
+CUST00588,Liam,White,liam.white588@example.com,Melbourne,Australia,APAC,2025-01-04,Social Media,26,Male,Gold
+CUST00589,Mateo,Lewis,mateo.lewis589@example.com,Pune,India,APAC,2024-08-24,Organic Search,41,Male,Silver
+CUST00590,Amelia,Lewis,amelia.lewis590@example.com,Singapore,Singapore,APAC,2024-01-10,Direct,26,Female,Silver
+CUST00591,Kiara,Taylor,kiara.taylor591@example.com,Ahmedabad,India,APAC,2024-09-20,Social Media,34,Female,Standard
+CUST00592,Karen,Rodriguez,karen.rodriguez592@example.com,Phoenix,USA,North America,2023-08-30,Social Media,29,Other,Silver
+CUST00593,Olivia,Singh,olivia.singh593@example.com,London,UK,Europe,2024-02-03,Social Media,38,Other,Standard
+CUST00594,Siya,Martin,siya.martin594@example.com,Delhi,India,APAC,2023-11-05,Organic Search,37,Male,Standard
+CUST00595,Sarah,Thompson,sarah.thompson595@example.com,Hyderabad,India,APAC,2024-10-09,Direct,43,Male,Silver
+CUST00596,Linda,Anderson,linda.anderson596@example.com,Sydney,Australia,APAC,2023-12-29,Paid Search,29,Male,Standard
+CUST00597,Navya,Brown,navya.brown597@example.com,Singapore,Singapore,APAC,2023-12-12,Social Media,31,Male,Standard
+CUST00598,Isabella,Patel,isabella.patel598@example.com,Hyderabad,India,APAC,2025-06-07,Email Marketing,25,Female,Standard
+CUST00599,Jennifer,Moore,jennifer.moore599@example.com,Mumbai,India,APAC,2023-03-19,Social Media,30,Other,Standard
+CUST00600,Aarav,Wilson,aarav.wilson600@example.com,Singapore,Singapore,APAC,2024-01-26,Organic Search,37,Male,Silver
